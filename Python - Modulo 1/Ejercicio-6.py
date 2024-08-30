@@ -1,9 +1,10 @@
 def imprimir_suma(n, m):
     numero = n + 1
-    if(numero >= m): 
+    
+    if(numero >= m):
         return 0
-    else:
-        return numero + imprimir_suma(n + 1, m)
+    
+    return numero + imprimir_suma(n + 1, m)
     
 print(imprimir_suma(1, 4))
 
