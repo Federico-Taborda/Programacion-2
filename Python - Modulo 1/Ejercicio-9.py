@@ -27,15 +27,17 @@ def introducir_valores(operar):
 
     print(operar(a, b))
 
-    return operacion()
+    return calculadora()
 
-def operacion():
-    print("1. Suma")
-    print("2.Resta")
-    print("3.Multiplicacion")
-    print("4.Divide")
-    print("5.Salir")
-    opcion = int(input("Ingrese un numero: "))
+def calculadora():
+    print("""
+          1. Suma
+          2.Resta
+          3.Multiplicacion
+          4.Divide
+          5.Salir""")
+    
+    opcion = int(input("Elija una operacion"))
 
     if opcion == 1: 
         introducir_valores(suma)
@@ -49,6 +51,6 @@ def operacion():
         print("Ha salido del programa")
     else:
         print("Tecla presionada incorrecta")
-        return operacion()
+        return calculadora()
 
-operacion()
+calculadora()
