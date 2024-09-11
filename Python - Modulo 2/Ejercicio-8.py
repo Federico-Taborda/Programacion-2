@@ -5,18 +5,37 @@ def promediar_notas(notas):
 
     return print(promedio / len(notas))
 
-
 def ingresar_notas():
     notas = []
-    continuar = False
+    continuar = True
 
-    while not continuar:
+    while continuar:
         nota = input("Ingrese una nota o end para finalizar:")
 
         if nota == "end":
-            continuar = True
-            return promediar_notas(notas)
+            continuar = False
 
         notas.append(int(nota))
 
-ingresar_notas()
+    return promediar_notas(notas)
+
+#ingresar_notas()
+
+def ingresar_notas_dos():
+    suma_notas = 0
+    cantidad_notas = 0
+    seguir = True 
+
+    while seguir:
+        nota = float(input("Ingresar una nota: "))
+        suma_notas += nota
+        cantidad_notas += 1
+
+        continuar = (input("Desea salir?: "))
+
+        if not "s" == continuar:
+            seguir = False
+
+    return suma_notas / cantidad_notas
+
+#print("El promedio es: ", ingresar_notas_dos())

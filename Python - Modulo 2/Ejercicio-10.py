@@ -1,7 +1,35 @@
-def mostrar_multiplos(n, m):
-    for x in range(n, m):
-        if x % n == 0: 
-            print(x)
+# Hace mas operaciones porque itera uno por uno
+def cantidad_multiplos_for(n, m):
+    contador = 0
 
-n = mostrar_multiplos(3, 30)
+    for x in range(1, m):
+        es_multiplo = x % n == 0
+        es_menor = x < m
 
+        if es_multiplo and es_menor:
+            contador += 1
+
+    return contador
+
+#print(cantidad_multiplos_for(3, 30))
+#print(cantidad_multiplos_for(7, 5000000))
+
+# Esta es una opcion de mas simple de una lista de n a m haciendo saltos
+# en multiplos de n
+def cantidad_multiplos_for_dos(n, m):
+    return len(range(n, m, n))
+
+#print(cantidad_multiplos_for_dos(7, 5000000))
+
+# Esta opcion es mejor porque van en saltos de n
+def cantidad_multiplos_while(n, m):
+    cantidad_multiplos = 0
+    multiplo = 0
+
+    while multiplo < m:
+        cantidad_multiplos += 1
+        multiplo += n 
+    
+    return cantidad_multiplos
+
+#print(cantidad_multiplos_while(7, 5000000))
