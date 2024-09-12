@@ -69,10 +69,8 @@ def criba_eratostenes(limite):
     return primos
 
 def imprimir_primos(n):
-    # Usamos la criba de Eratóstenes para encontrar todos los primos hasta n
     primos = criba_eratostenes(n)
     
-    # Contamos cuántos números son primos en el rango de 2 a n-1
     cantidad_primos = 0
     for i in range(2, n):
         if es_primo_cinco(i, primos):
@@ -80,6 +78,6 @@ def imprimir_primos(n):
             
     return cantidad_primos
 
-print(imprimir_primos(10000000))  # Esto imprimirá cuántos números primos hay hasta n
+print(imprimir_primos(10000000))
 
 
