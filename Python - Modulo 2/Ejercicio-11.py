@@ -1,16 +1,13 @@
-contraseña_guardada = "admin"
-
-def validar_contraseña(contraseña):
-    return contraseña == contraseña_guardada
-
 # Solucion utilizando recursion
 def solicitar_contraseña(intentos):
+    contraseña_guardada = "admin"
+
     if intentos == 0:
         return print("Maximo de intentos excedido")
 
-    contraseña = input("Ingrese su contraseña: ")
+    contraseña_ingresada = input("Ingrese su contraseña: ")
 
-    while not validar_contraseña(contraseña):
+    while not contraseña_ingresada == contraseña_guardada:
         print("Contraseña incorrecta. Vuelva a intentarlo")
         return solicitar_contraseña(intentos - 1)
     
@@ -27,6 +24,7 @@ def solicitar_contraseña():
 
     while intentos < cantidad_maxima_intentos and not coincide:
         contraseña_ingresada = input("Ingrese una contraseña: ")
+        
         if contraseña_ingresada == contraseña_inventada:
             coincide = True
         else:
