@@ -1,13 +1,13 @@
-def ingresar_numero(texto):
-    dato = int(input(texto))
-    return dato
-
 def preguntar():
-    n = ingresar_numero("Ingresar primer numero: ")
-    m = ingresar_numero("Ingresar segundo numero:")
+    n = input("Ingresar primer numero: ")
+    m = input("Ingresar segundo numero: ")
 
-    while not n < m:
-        m = ingresar_numero("Ingresar segundo numero:")
+    if n[0].isnumeric() or n[1].isnumeric() and m[0].isnumeric() or m[1].isnumeric():
+        while not int(n) < int(m):
+            m = input("Ingresar segundo numero:")
+    else:
+        print("Valores incorrectos")
+        preguntar()
 
     return print(n, m)
 
