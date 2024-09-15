@@ -18,8 +18,9 @@ def busqueda_dicotomica(lista, palabra):
     if palabra > lista[mitad]:
         return busqueda_dicotomica(lista[mitad:], palabra)
     
-print(busqueda_dicotomica([], "a"))
-print(busqueda_dicotomica(["a", "b", "c", "d", "e", "f", "g", "h"], "c"))
-print(busqueda_dicotomica(["a", "b", "c", "d", "e", "f", "g", "h"], "e"))
-print(busqueda_dicotomica(["a", "b", "c", "d", "e", "f", "g", "h"], "h"))
-print(busqueda_dicotomica(["a", "b", "c", "d", "e", "f", "g", "h"], "i"))
+def test_busqueda_dicotomica():
+    assert busqueda_dicotomica([], "a") == False
+    assert busqueda_dicotomica(["a", "b", "c", "d", "e", "f", "g", "h"], "c") == True
+    assert busqueda_dicotomica(["a", "b", "c", "d", "e", "f", "g", "h"], "e") == True
+    assert busqueda_dicotomica(["a", "b", "c", "d", "e", "f", "g", "h"], "h") == True
+    assert busqueda_dicotomica(["a", "b", "c", "d", "e", "f", "g", "h"], "i") == False
