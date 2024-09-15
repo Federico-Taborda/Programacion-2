@@ -8,12 +8,12 @@ def tomar_carta():
 
     carta_tomada = cartas[carta]
 
-    if numero == 1: return "As ", carta_tomada
-    if numero == 11: return "J", carta_tomada
-    if numero == 12: return "Q", carta_tomada
-    if numero == 13: return "K", carta_tomada
+    if numero == 1: return ("As ", carta_tomada)
+    if numero == 11: return ("J", carta_tomada)
+    if numero == 12: return ("Q", carta_tomada)
+    if numero == 13: return ("K", carta_tomada)
     
-    return numero, carta_tomada
+    return (numero, carta_tomada)
 
 def contar_repeticiones(mano):
 
