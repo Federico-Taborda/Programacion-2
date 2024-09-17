@@ -8,10 +8,6 @@ def duplicado(lista):
 
     return False
 
-print(duplicado([1,2,3,4,4]))
-print(duplicado(["a", "b", "c"]))
-print(duplicado(["a", "a", "a"]))
-
 def duplicado_recursivo(lista, nueva_lista = [], indice = 0):
     if indice == len(lista):
         return False
@@ -23,7 +19,10 @@ def duplicado_recursivo(lista, nueva_lista = [], indice = 0):
 
     return duplicado_recursivo(lista, nueva_lista, indice + 1)
 
-print(duplicado_recursivo([1,2,3,4]))
-print(duplicado_recursivo([1,2,3,4,4]))
-print(duplicado_recursivo(["a", "a", "a"]))
-
+def test_duplicado():
+    assert duplicado([1,2,3,4]) == False
+    assert duplicado([1,2,3,4,4]) == True
+    assert duplicado(["a", "a", "a"]) == True
+    assert duplicado_recursivo([1,2,3,4]) == False
+    assert duplicado_recursivo([1,2,3,4,4]) == True
+    assert duplicado_recursivo(["a", "a", "a"]) == True
