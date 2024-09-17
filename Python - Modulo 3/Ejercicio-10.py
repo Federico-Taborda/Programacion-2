@@ -1,3 +1,9 @@
+def contar(l, palabra):
+    if len(palabra) == 0:
+        return False
+    
+    return (palabra[0] == l) + contar(l, palabra[1:])
+
 def contar_for(l, cadena):
     contador = 0
 
@@ -28,6 +34,9 @@ def contar_recursiva(l, palabra, indice = 0, contador = 0):
     return contar_recursiva(l, palabra, indice + 1, contador)
 
 def test_contar():
+    assert contar("a", "") == 0
+    assert contar("e", "palabra") == 0
+    assert contar("a", "palabra") == 3
     assert contar_for("a", "") == 0
     assert contar_for("e", "palabra") == 0
     assert contar_for("a", "palabra") == 3
