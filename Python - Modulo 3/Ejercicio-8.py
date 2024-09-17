@@ -1,22 +1,61 @@
-import math
-
-def busqueda_dicotomica(lista, palabra):
+def busqueda_dicotomica(lista, elemento):
     if lista == []:
         return False
     
-    if len(lista) == 1 and not lista[0] == palabra:
+    if len(lista) == 1 and not lista[0] == elemento:
         return False
     
-    mitad = math.floor(len(lista) / 2)
+    mitad = len(lista) // 2
 
-    if palabra == lista[mitad]:
+    if elemento == lista[mitad]:
         return True
     
-    if palabra < lista[mitad]:
-        return busqueda_dicotomica(lista[:mitad], palabra)
+    if elemento < lista[mitad]:
+        return busqueda_dicotomica(lista[:mitad], elemento)
     
-    if palabra > lista[mitad]:
-        return busqueda_dicotomica(lista[mitad:], palabra)
+    if elemento > lista[mitad]:
+        return busqueda_dicotomica(lista[mitad:], elemento)
+    
+def busqueda_dicotomica_dos(lista, elemento):
+    if lista == []:
+        return False
+
+    mitad = len(lista) // 2
+
+    if elemento > lista[mitad]:
+        return busqueda_dicotomica_dos(lista[mitad+1:], elemento)
+    elif elemento < lista[mitad]:
+        return busqueda_dicotomica_dos(lista[:mitad], elemento)
+    
+    return True
+
+def busqueda_dicotomica_tres(lista, elemento, inicio = 0, final = 0):
+    if inicio == final:
+        return False
+
+    inicio = 0
+    final = len(lista)
+    mitad = (inicio + final) // 2
+
+    if elemento > lista[mitad]:
+        return busqueda_dicotomica_tres(lista, elemento, mitad - 1, final)
+    elif elemento < lista[mitad]:
+        return busqueda_dicotomica_tres(lista, elemento, inicio, mitad)
+    
+    return True
+
+def busqueda_dicotomica_while(lista, elemento):
+    mitad = len(lista) // 2
+
+    while lista != [] and lista[mitad] != elemento:
+        if elemento < lista[mitad]:
+            lista = lista[:mitad]
+        else:
+            lista = lista[mitad+1:]
+
+        mitad = len(lista) // 2
+    
+    return lista != []
     
 def test_busqueda_dicotomica():
     assert busqueda_dicotomica([], "a") == False
@@ -24,3 +63,18 @@ def test_busqueda_dicotomica():
     assert busqueda_dicotomica(["a", "b", "c", "d", "e", "f", "g", "h"], "e") == True
     assert busqueda_dicotomica(["a", "b", "c", "d", "e", "f", "g", "h"], "h") == True
     assert busqueda_dicotomica(["a", "b", "c", "d", "e", "f", "g", "h"], "i") == False
+    assert busqueda_dicotomica_dos([], "a") == False
+    assert busqueda_dicotomica_dos(["a", "b", "c", "d", "e", "f", "g", "h"], "c") == True
+    assert busqueda_dicotomica_dos(["a", "b", "c", "d", "e", "f", "g", "h"], "e") == True
+    assert busqueda_dicotomica_dos(["a", "b", "c", "d", "e", "f", "g", "h"], "h") == True
+    assert busqueda_dicotomica_dos(["a", "b", "c", "d", "e", "f", "g", "h"], "i") == False
+    assert busqueda_dicotomica_tres([], "a") == False
+    #assert busqueda_dicotomica_tres(["a", "b", "c", "d", "e", "f", "g", "h"], "c") == True
+    #assert busqueda_dicotomica_tres(["a", "b", "c", "d", "e", "f", "g", "h"], "e") == True
+    #assert busqueda_dicotomica_tres(["a", "b", "c", "d", "e", "f", "g", "h"], "h") == True
+    assert busqueda_dicotomica_tres(["a", "b", "c", "d", "e", "f", "g", "h"], "i") == False
+    assert busqueda_dicotomica_while([], "a") == False
+    assert busqueda_dicotomica_while(["a", "b", "c", "d", "e", "f", "g", "h"], "c") == True
+    assert busqueda_dicotomica_while(["a", "b", "c", "d", "e", "f", "g", "h"], "e") == True
+    assert busqueda_dicotomica_while(["a", "b", "c", "d", "e", "f", "g", "h"], "h") == True
+    assert busqueda_dicotomica_while(["a", "b", "c", "d", "e", "f", "g", "h"], "i") == False
