@@ -1,3 +1,5 @@
+# Si bien esta funcion llega a la solucion no es correcta, ya que se debe
+# trabajar solo con numeros
 def contar(l, palabra):
     if len(palabra) == 0:
         return False
