@@ -9,4 +9,4 @@ def head(archivo, n):
     
     f.close()
 
-head("head.txt", 4)
+head("head.txt", 2)
