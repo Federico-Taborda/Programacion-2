@@ -75,60 +75,58 @@ def dibujarPiernaDerecha():
 ___|___
                  ''')
 
-def pedirLetra():
-    return input("Introduzca una letra: ")
-
 def dibujarOcurrencias(letra, palabra, palabra_secreta):
-    nueva_palabra_secreta = ""
+    nueva_palabra_secreta = []
 
     for caracter in range(0, len(palabra)):
         # En caso de que la letra no se la indicada y la letra no este codificada dibujar la letra ya existente
-        if letra != palabra[caracter] and palabra_secreta[caracter] != "*":
-            nueva_palabra_secreta += palabra_secreta[caracter]
+        if letra != palabra[caracter] and palabra_secreta[caracter] != "_":
+            nueva_palabra_secreta.append(palabra_secreta[caracter])
 
         # En caso de que la letra sea la correcta dibuja la letra en la ocurrencia
         if letra == palabra[caracter]:
-            nueva_palabra_secreta += letra
+            nueva_palabra_secreta.append(letra)
 
         # En caso de que la letra no sea la correcta y la letra este codificada entonces dibujar el *
-        if letra != palabra[caracter] and palabra_secreta[caracter] == "*":
-            nueva_palabra_secreta += "*" 
+        if letra != palabra[caracter] and palabra_secreta[caracter] == "_":
+            nueva_palabra_secreta.append("_")
     
-    return nueva_palabra_secreta
-
-def adivinaPalabra(palabra_secreta):
-    return "*" not in palabra_secreta
+    return "".join(nueva_palabra_secreta)
 
 def juego(palabra_elegida):
     intentos = 6
-    caracteres_introduccidos = []
-    palabra = palabra_elegida
-    palabra_secreta = "*" * len(palabra)
+    caracteres_introduccidos = set()
+    caracteres_palabra = set(palabra_elegida)
+    palabra_secreta = "_" * len(palabra_elegida)
     adivina = False
-    print("La palabra a adivinar es de", (len(palabra)), "letras")
-    dibujar_horca()
+    print("La palabra a adivinar es de", (len(palabra_elegida)), "letras")
     
     while intentos >= 0 and not adivina:
-        caracter = pedirLetra()
+        caracter = input("Introduzca una letra: ")
 
+        # Si el caracter ya fue ingresado
         if caracter in caracteres_introduccidos:
-            intentos -= 1
             print("Ya has introducido la letra", caracter)
+            continue
 
-        if caracter not in palabra:
+        # Si el caracter no es correcto se quita un intento y se añade a los caracteres ya ingresados
+        if caracter not in caracteres_palabra: 
             intentos -= 1
-            caracteres_introduccidos.append(caracter)
+            caracteres_introduccidos.add(caracter)
             print("Incorrecto - Palabra a adivinar:", palabra_secreta)
         
-        if caracter in palabra:
-            palabra_secreta = dibujarOcurrencias(caracter, palabra, palabra_secreta)
-            caracteres_introduccidos.append(caracter)
+        # Si el caracter es correcto se reemplaza en todas las ocurrencias y se añade a los caracteres ya ingresados
+        if caracter in caracteres_palabra:
+            palabra_secreta = dibujarOcurrencias(caracter, palabra_elegida, palabra_secreta)
+            caracteres_introduccidos.add(caracter)
             print("Correcto - Palabra a adivinar:", palabra_secreta)
-            adivina = adivinaPalabra(palabra_secreta)
+            adivina = "_" not in palabra_secreta
 
-        if intentos == 5:
+        if intentos == 6:
+            dibujar_horca()
+        elif intentos == 5:
             dibujarCabeza()
-        if intentos == 4:
+        elif intentos == 4:
             dibujarTorso()
         elif intentos == 3:
             dibujarBrazoIzquierdo()
@@ -138,7 +136,7 @@ def juego(palabra_elegida):
             dibujarPiernaIzquierda()
     
     if adivina:
-        print("Has adivinado la plabra:", palabra)
+        print("Has adivinado la palabra:", palabra_elegida)
         return 
         
     if intentos <= 0:
