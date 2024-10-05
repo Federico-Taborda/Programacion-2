@@ -1,4 +1,4 @@
-def carrito_compras(precios, cantidades):
+def carrito_compras(precios:dict, cantidades:dict) -> int:
     total = 0
 
     for producto in cantidades:

@@ -1,4 +1,4 @@
-def mayor(lista):
+def mayor(lista:list) -> any:
     mayor = lista[0]
 
     for n in range(1, len(lista)):
@@ -7,7 +7,7 @@ def mayor(lista):
 
     return mayor
 
-def lista_menores(lista_desordenada):
+def lista_menores(lista_desordenada:list) -> set:
     max = mayor(lista_desordenada)
     conjunto = set()
 

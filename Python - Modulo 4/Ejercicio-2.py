@@ -1,4 +1,4 @@
-def valor_maximo(lista):
+def valor_maximo(lista:list) -> tuple:
     maximo = lista[0]
     indice = 0
 

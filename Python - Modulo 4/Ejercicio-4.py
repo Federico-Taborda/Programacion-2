@@ -1,4 +1,4 @@
-def lista_a_diccionario(lista):
+def lista_a_diccionario(lista:list) -> dict:
     diccionario = {}
 
     for (clave, valor) in lista:

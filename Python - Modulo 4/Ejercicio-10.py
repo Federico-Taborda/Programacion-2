@@ -1,4 +1,4 @@
-def lista_conjunto(lista):
+def lista_conjunto(lista:list) -> set:
     return set(lista)
 
-#print(lista_conjunto([1,1,1,2,3]))
+print(lista_conjunto([1,1,1,2,3]))

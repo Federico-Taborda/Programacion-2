@@ -1,4 +1,4 @@
-def apariciones(lista, elemento): 
+def apariciones(lista:list, elemento:any) -> int: 
     contador = 0
 
     for x in lista:
@@ -7,7 +7,7 @@ def apariciones(lista, elemento):
 
     return contador
 
-def primera_coincidencia(lista, elemento):
+def primera_coincidencia(lista:list, elemento:any)-> int:
     indice = 0
     contador = 0
 
@@ -19,7 +19,7 @@ def primera_coincidencia(lista, elemento):
     
     return indice
 
-def lista_apariciones(lista, elemento): 
+def lista_apariciones(lista:list, elemento:any)-> list: 
     posiciones = []
     indice = 0
 

@@ -1,4 +1,4 @@
-def caracter_palabra(cadena):
+def caracter_palabra(cadena:str) -> dict:
     if cadena == "":
         return {}
 

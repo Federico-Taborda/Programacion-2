@@ -1,6 +1,6 @@
 from random import *
 
-def sinonimizar(texto, sinonimos):
+def sinonimizar(texto:str, sinonimos:list) -> str:
     lista_palabras = texto.split()
     nuevo_texto = ""
         

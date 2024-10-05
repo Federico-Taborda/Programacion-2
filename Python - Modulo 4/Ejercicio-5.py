@@ -1,7 +1,7 @@
 from random import *
 
 # Ejercicio A
-def apariciones_palabra(cadena):
+def apariciones_palabra(cadena:str) -> dict:
     diccionario = {}
     palabra = ""
     indice = 0

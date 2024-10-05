@@ -1,4 +1,4 @@
-def dias_disponible(nombres):
+def dias_disponible(nombres:dict) -> set:
     disponibles = set()
 
     for persona in nombres:

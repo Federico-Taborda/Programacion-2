@@ -1,4 +1,4 @@
-def busqueda_binaria(lista, elemento):
+def busqueda_binaria(lista:list, elemento:any) -> int:
     primero = 0
     ultimo = len(lista) - 1
     mitad = len(lista) // 2

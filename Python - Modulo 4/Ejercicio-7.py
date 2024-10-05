@@ -4,7 +4,7 @@ notas = {
     "Ezequiel": [8, 9, 8]
 }
 
-def promedio(notas):
+def promedio(notas:list) -> dict:
     diccionario = {}
 
     for alumno in notas:
