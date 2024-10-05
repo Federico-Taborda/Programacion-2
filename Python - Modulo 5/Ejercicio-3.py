@@ -1,40 +1,24 @@
 def wc(archivo):
-    lineas = contar_lineas(archivo)
-    palabras = contar_palabras(archivo)
-    caracteres = contar_caracteres(archivo)
-    
-    return {
-        lineas,
-        palabras,
-        caracteres
-    }
+  try:
+    file = open(archivo, "r")
+  except:
+    print("El archivo no existe")
 
-def contar_lineas(archivo):
-    lines = 0
-    file = open(archivo,  "r")
+  lineas = 0
+  caracteres = 0
+  palabras = 0
 
-    for line in file:
-        lines += 1
+  for line in file:
+    caracteres += len(line)
+    lineas += 1
+    palabras += len(line.split())
+  
+  file.close()
 
-    file.close()
+  return {
+    "lineas": lineas,
+    "palabras": palabras,
+    "caracteres": caracteres
+  }
 
-    return lines
-
-def contar_palabras(archivo):
-    file = open(archivo,  "r")
-    contenido = file.read()
-    words = contenido.split()
-    file.close()
-
-    return len(words)
-
-def contar_caracteres(archivo):
-    file = open(archivo,  "r")
-    contenido = file.read()
-    characters = len(contenido)
-    file.close()
-
-    return characters
-
-print(wc("head.txt"))
-
+#print(wc("prueba.txt"))

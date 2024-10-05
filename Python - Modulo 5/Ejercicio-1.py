@@ -1,12 +1,14 @@
-def head(archivo, n):
-    f = open(archivo, "r")
-    linea = f.readline()
+def leer_lineas(archivo, n):
+  try:
+    file = open(archivo, "r")
+  except:
+    print("El archivo no existe")
 
-    while not n == 0:
-        print(linea)
-        linea = f.readline()
-        n -= 1
-    
-    f.close()
+  while n > 0:
+    linea = file.readline()
+    print(linea)
+    n -= 1
 
-head("head.txt", 2)
+  file.close()
+
+#leer_lineas("prueba.txt", 2)
