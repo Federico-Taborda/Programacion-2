@@ -16,7 +16,7 @@ def cargar_datos(archivo):
 
   return datos
 
-#print(cargar_datos("datos.txt"))
+print(cargar_datos("e6.txt"))
 
 def guardar_datos(datos, archivo):
   try:
@@ -25,7 +25,7 @@ def guardar_datos(datos, archivo):
     print("El archivo no existe")
 
   for dato in datos:
-    file.write(dato + ":" + datos[dato])
+    file.write(dato + ":" + datos[dato] + "\n")
   
   file.close()
 
@@ -34,4 +34,4 @@ diccionario = {
   "localidad": "dffsfasd"
 }
 
-guardar_datos(diccionario,"datos.txt")
+#guardar_datos(diccionario,"e6.txt")

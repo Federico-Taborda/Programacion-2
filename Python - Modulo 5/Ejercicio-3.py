@@ -21,4 +21,4 @@ def wc(archivo):
     "caracteres": caracteres
   }
 
-#print(wc("prueba.txt"))
+print(wc("head.txt"))

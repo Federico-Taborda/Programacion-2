@@ -9,4 +9,4 @@ def grep(expresion, archivo):
       print(linea)
   file.close()
 
-#grep("pr", "prueba.txt")
+grep("pr", "e4.txt")

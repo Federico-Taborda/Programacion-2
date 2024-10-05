@@ -11,4 +11,4 @@ def leer_lineas(archivo, n):
 
   file.close()
 
-#leer_lineas("prueba.txt", 2)
+leer_lineas("head.txt", 2)

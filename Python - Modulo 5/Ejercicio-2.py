@@ -18,4 +18,4 @@ def agregar_linea(archivo, linea):
   file.write(linea)
   file.close()
 
-#copiar(5, "prueba.txt", "prueba2.txt")
+copiar(5, "e2.txt", "e2-copia.txt")
