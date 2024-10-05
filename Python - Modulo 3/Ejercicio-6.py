@@ -1,4 +1,4 @@
-def elimina_duplicado_for(lista):
+def elimina_duplicado_for(lista:list) -> list: 
     nueva_lista = []
 
     for x in lista:
@@ -7,7 +7,7 @@ def elimina_duplicado_for(lista):
     
     return nueva_lista
 
-def elimina_duplicado_dos(lista):
+def elimina_duplicado_dos(lista:list) -> list: 
     if lista == []:
         return []
     lista.sort()
@@ -19,7 +19,7 @@ def elimina_duplicado_dos(lista):
     
     return nueva_lista
 
-def elimina_duplicado_recursivo(lista, nueva_lista = [], index = 0):
+def elimina_duplicado_recursivo(lista:list, nueva_lista:list = [], index:int = 0)-> list: 
     if index == len(lista):
         return nueva_lista
     
@@ -28,7 +28,7 @@ def elimina_duplicado_recursivo(lista, nueva_lista = [], index = 0):
         
     return elimina_duplicado_recursivo(lista, nueva_lista, index + 1)
 
-def elimina_duplicado_conjuntos(lista):
+def elimina_duplicado_conjuntos(lista:list) -> set:
     return list(set(lista))
     
 def test_elimina_duplicado():

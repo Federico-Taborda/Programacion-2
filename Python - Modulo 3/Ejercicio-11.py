@@ -1,4 +1,4 @@
-def contar_vocales(cadena):
+def contar_vocales(cadena:str) -> any:
     vocales = ["a", "e", "i", "o", "u"]
     contadores = [0, 0, 0, 0, 0]
 

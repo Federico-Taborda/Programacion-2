@@ -1,4 +1,4 @@
-def ordenada(lista):
+def ordenada(lista:list) -> bool: 
     indice = 0
 
     while not indice + 1 == len(lista):
@@ -10,7 +10,7 @@ def ordenada(lista):
     
     return True
 
-def ordenada_recursiva(lista, i = 0):
+def ordenada_recursiva(lista:list, i:int = 0) -> bool: 
     if i + 1 == len(lista):
         return True
     

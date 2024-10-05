@@ -1,4 +1,4 @@
-def posiciones_multiplo(lista, n):
+def posiciones_multiplo(lista:list, n:int) -> list:
     nueva_lista = []
     
     for x in lista:
@@ -13,7 +13,7 @@ def test_posiciones_multiplo():
     assert posiciones_multiplo([1,2,3,4,5,6,7],2) == [1, 3, 5]
     assert posiciones_multiplo([1,2,3,4,5,6,7],3) == [2, 5]
 
-def posiciones_multiplo_recursiva(lista, n, i=0, nueva_lista = []):
+def posiciones_multiplo_recursiva(lista:list, n:int, i:int=0, nueva_lista:list = [])-> list:
     if i == len(lista):
         return nueva_lista
     

@@ -1,4 +1,4 @@
-def diaSiguiente(fecha):
+def diaSiguiente(fecha:tuple) -> tuple:
     if fecha[0] == 30 and fecha[1] == 12:
         return (1, 1, fecha[2] + 1)
     

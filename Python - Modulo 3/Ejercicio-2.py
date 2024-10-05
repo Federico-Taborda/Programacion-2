@@ -1,4 +1,4 @@
-def acumular_for(lista):
+def acumular_for(lista:list) -> list:
     nueva_lista = [lista[0]]
     
     for i in range(1, len(lista)):
@@ -7,7 +7,7 @@ def acumular_for(lista):
 
     return nueva_lista
 
-def acumular_while(lista):
+def acumular_while(lista:list) -> list:
     nueva_lista = [lista[0]]
     indice = 1
 
@@ -17,7 +17,7 @@ def acumular_while(lista):
 
     return nueva_lista
 
-def acumular_recursivo(lista, i=1, nueva_lista = []):
+def acumular_recursivo(lista:list, i:int=1, nueva_lista:list = []) -> list:
     if i == len(lista):
         return nueva_lista
     

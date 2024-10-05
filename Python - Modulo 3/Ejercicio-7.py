@@ -1,4 +1,4 @@
-def cantidad_elementos_distintos(lista):
+def cantidad_elementos_distintos(lista:list) -> int:
     nueva_lista = []
 
     for x in lista:

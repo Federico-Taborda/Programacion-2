@@ -1,4 +1,4 @@
-def contar_palabras_for(cadena):
+def contar_palabras_for(cadena:str) -> int:
     palabra = ""
     contador = 0
 

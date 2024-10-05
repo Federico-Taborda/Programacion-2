@@ -1,12 +1,12 @@
 # Si bien esta funcion llega a la solucion no es correcta, ya que se debe
 # trabajar solo con numeros
-def contar(l, palabra):
+def contar(l:list, palabra:str) -> int:
     if len(palabra) == 0:
         return False
     
     return (palabra[0] == l) + contar(l, palabra[1:])
 
-def contar_for(l, cadena):
+def contar_for(l:list, cadena:str) -> int:
     contador = 0
 
     for x in cadena:
@@ -15,7 +15,7 @@ def contar_for(l, cadena):
         
     return contador
 
-def contar_while(l, palabra):
+def contar_while(l:list, palabra:str) -> int:
     indice = 0
     contador = 0
 
@@ -26,7 +26,7 @@ def contar_while(l, palabra):
     
     return contador
 
-def contar_recursiva(l, palabra, indice = 0, contador = 0):
+def contar_recursiva(l:list, palabra:str, indice:int = 0, contador:int = 0):
     if indice == len(palabra):
         return contador
     

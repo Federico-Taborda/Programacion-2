@@ -1,4 +1,4 @@
-def busqueda_dicotomica(lista, elemento):
+def busqueda_dicotomica(lista:list, elemento:any) -> bool:
     if lista == []:
         return False
     
@@ -16,7 +16,7 @@ def busqueda_dicotomica(lista, elemento):
     if elemento > lista[mitad]:
         return busqueda_dicotomica(lista[mitad:], elemento)
     
-def busqueda_dicotomica_dos(lista, elemento):
+def busqueda_dicotomica_dos(lista:list, elemento:any) -> bool:
     if lista == []:
         return False
 
@@ -29,7 +29,7 @@ def busqueda_dicotomica_dos(lista, elemento):
     
     return True
 
-def busqueda_dicotomica_tres(lista, elemento, inicio = 0, final = 0):
+def busqueda_dicotomica_tres(lista:list, elemento:any, inicio:int = 0, final:int = 0):
     if inicio == final:
         return False
 
@@ -44,7 +44,7 @@ def busqueda_dicotomica_tres(lista, elemento, inicio = 0, final = 0):
     
     return True
 
-def busqueda_dicotomica_while(lista, elemento):
+def busqueda_dicotomica_while(lista:list, elemento:any) -> bool:
     mitad = len(lista) // 2
 
     while lista != [] and lista[mitad] != elemento:
