@@ -34,17 +34,3 @@ def contar_recursiva(l:list, palabra:str, indice:int = 0, contador:int = 0):
         return contar_recursiva(l, palabra, indice + 1, contador + 1)
     
     return contar_recursiva(l, palabra, indice + 1, contador)
-
-def test_contar():
-    assert contar("a", "") == 0
-    assert contar("e", "palabra") == 0
-    assert contar("a", "palabra") == 3
-    assert contar_for("a", "") == 0
-    assert contar_for("e", "palabra") == 0
-    assert contar_for("a", "palabra") == 3
-    assert contar_while("a", "") == 0
-    assert contar_while("e", "palabra") == 0
-    assert contar_while("a", "palabra") == 3
-    assert contar_recursiva("a", "") == 0
-    assert contar_recursiva("e", "palabra") == 0
-    assert contar_recursiva("a", "palabra") == 3

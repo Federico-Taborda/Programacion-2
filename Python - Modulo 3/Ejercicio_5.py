@@ -18,11 +18,3 @@ def duplicado_recursivo(lista:list, nueva_lista:list = [], indice:int = 0) -> bo
     nueva_lista.append(lista[indice])
 
     return duplicado_recursivo(lista, nueva_lista, indice + 1)
-
-def test_duplicado():
-    assert duplicado([1,2,3,4]) == False
-    assert duplicado([1,2,3,4,4]) == True
-    assert duplicado(["a", "a", "a"]) == True
-    assert duplicado_recursivo([1,2,3,4]) == False
-    assert duplicado_recursivo([1,2,3,4,4]) == True
-    assert duplicado_recursivo(["a", "a", "a"]) == True

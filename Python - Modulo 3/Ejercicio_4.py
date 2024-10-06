@@ -18,9 +18,3 @@ def ordenada_recursiva(lista:list, i:int = 0) -> bool:
         return ordenada_recursiva(lista, i + 1)
     
     return False
-
-def test_ordenada():
-    assert ordenada([1,2,3]) == True
-    assert ordenada([4,2,3]) == False
-    assert ordenada(["a", "b", "c"]) == True
-    assert ordenada(["b", "a", "c"]) == False

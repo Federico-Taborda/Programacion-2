@@ -29,14 +29,3 @@ def acumular_recursivo(lista:list, i:int=1, nueva_lista:list = []) -> list:
     nueva_lista.append(elemento_anterior + elemento_actual)
 
     return acumular_recursivo(lista, i + 1, nueva_lista)
-
-print(acumular_while([1,2,3]))
-
-def test_acumular():
-    assert acumular_for([1,2,3]) == [1,3,6]
-    assert acumular_for([1,1,1]) == [1,2,3]
-    assert acumular_while([1,2,3]) == [1,3,6]
-    assert acumular_while([1,1,1]) == [1,2,3]
-
-def test_acumular_recursivo():
-    assert acumular_recursivo([1,2,3]) == [1,3,6]

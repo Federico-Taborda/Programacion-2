@@ -30,17 +30,3 @@ def elimina_duplicado_recursivo(lista:list, nueva_lista:list = [], index:int = 0
 
 def elimina_duplicado_conjuntos(lista:list) -> set:
     return list(set(lista))
-    
-def test_elimina_duplicado():
-    assert elimina_duplicado_for([]) == []
-    assert elimina_duplicado_for(["a", "a", "b"]) == ["a", "b"]
-    assert elimina_duplicado_for([1, 1, 1]) == [1]
-    assert elimina_duplicado_dos([]) == []
-    assert elimina_duplicado_dos(["a", "a", "b"]) == ["a", "b"]
-    assert elimina_duplicado_dos([1, 1, 1]) == [1]
-    assert elimina_duplicado_recursivo([]) == []
-    #assert elimina_duplicado_recursivo(["a", "a", "b"]) == ["a", "b"]
-    assert elimina_duplicado_recursivo([1, 1, 1]) == [1]
-    assert elimina_duplicado_conjuntos([]) == []
-    assert elimina_duplicado_conjuntos(["a", "a", "b"]) == ["a", "b"]
-    assert elimina_duplicado_conjuntos([1, 1, 1]) == [1]

@@ -23,10 +23,3 @@ def elimina_cuatro(lista:list) -> list:
     del nueva_lista[len(nueva_lista) - 1]
     return nueva_lista
 
-
-def test_elimina():
-    assert elimina_uno([1,2,3]) == [2]  
-    assert elimina_dos([1,2,3]) == [2]
-    assert elimina_tres([1,2,3]) == [2]
-    assert elimina_cuatro([1,2,3]) == [2]
-

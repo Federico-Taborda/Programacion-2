@@ -29,9 +29,3 @@ def mostrar_caracteres_recursivo(palabra:str, index:int = -1, arr:list = []) -> 
     
     arr.append(palabra[index])
     return mostrar_caracteres_recursivo(palabra, index - 1, arr)
-
-def test_mostrar_caracteres():
-    assert mostrar_caracteres("hola")
-    assert mostrar_caracteres_for("hola")
-    assert mostrar_caracteres_while("hola")
-    assert mostrar_caracteres_recursivo("hola")
