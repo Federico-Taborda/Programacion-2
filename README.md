@@ -9,6 +9,8 @@ Repositorio de teoria y ejercicios de la materia
 
 - Una funcion en la que no se declara que valor retorna entonces su valor es None
 
+- La funciones recursivas que llevan los resultados en los argumentos de la funcion se llaman recursion en cola
+
 - Es una mala practica en las funciones interrupir los bucles con un return. No se deberia forzar la salida del ciclo. Los bucles deben terminar solo si la condicion del bucle es falsa.
 
 - Python nos permite escribir la signatura de las funciones en el mismo codigo. Esto no es necesario pero ayuda a ver con que tipos datos recibe la funcion y que retorna.

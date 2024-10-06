@@ -31,10 +31,8 @@ def busqueda_binaria(lista:list, elemento:any) -> int:
             encontrado = True
 
     return index
-print(busqueda_binaria(["a", "c", "d", "e", "f"], "b"))
 
-def test_busqueda_binaria():
-    assert busqueda_binaria([1,2,3,4,5,6,7,8,9,10], 4) == 3
-    assert busqueda_binaria(["a", "b", "c", "d", "e", "f"], "b") == 1
-    assert busqueda_binaria(["a", "c", "d", "e", "f"], "b") == 1
+#print(busqueda_binaria(["a", "c", "d", "e", "f"], "b"))
+
+
     

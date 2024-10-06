@@ -9,4 +9,4 @@ def lista_a_diccionario(lista:list) -> dict:
 
     return diccionario
 
-print(lista_a_diccionario([("Hola", "don pepito"), ("Hola", "don jose"), ("Buenos", "dias")]))
+#print(lista_a_diccionario([("Hola", "don pepito"), ("Hola", "don jose"), ("Buenos", "dias")]))

@@ -22,4 +22,4 @@ sinonimos = {
     "campo": ["terreno", "suelo"],
 }
 
-print(sinonimizar(cadena, sinonimos))
+#print(sinonimizar(cadena, sinonimos))

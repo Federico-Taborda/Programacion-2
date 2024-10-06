@@ -16,7 +16,7 @@ def promedio(notas:list) -> dict:
 
     return diccionario
 
-print(promedio(notas))
+#print(promedio(notas))
 
 
 

@@ -32,5 +32,5 @@ def lista_apariciones(lista:list, elemento:any)-> list:
 
     return posiciones
 
-print(lista_apariciones(["a", "a", "b", "a"], "a"))
+#print(lista_apariciones(["a", "a", "b", "a"], "a"))
     
