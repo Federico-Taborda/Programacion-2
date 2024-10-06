@@ -3,19 +3,14 @@ def caracter_palabra(cadena:str) -> dict:
         return {}
 
     diccionario = {}
-    
-    for letra in cadena:
-        if letra != " ":
-            if letra not in diccionario:
-                diccionario[letra] = ""
-            
     lista_palabras = cadena.split()
 
     for palabra in lista_palabras:
         for letra in palabra:
+            if letra not in diccionario:
+                diccionario[letra] = ""
+                
             if len(diccionario[letra]) < len(palabra):
                 diccionario[letra] = palabra
     
     return diccionario
-    
-#print(caracter_palabra("la letra en la palabra mas larga"))

@@ -32,7 +32,5 @@ def busqueda_binaria(lista:list, elemento:any) -> int:
 
     return index
 
-#print(busqueda_binaria(["a", "c", "d", "e", "f"], "b"))
-
 
     
