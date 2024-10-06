@@ -7,4 +7,4 @@ def solicitar_positivo():
     
     return print("Es positivo")
 
-solicitar_positivo()
+#solicitar_positivo()

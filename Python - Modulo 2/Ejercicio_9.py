@@ -11,5 +11,5 @@ def preguntar():
 
     return print(n, m)
 
-preguntar()
+#preguntar()
 

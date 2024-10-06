@@ -35,15 +35,3 @@ def devolver_suma(n, m):
             suma += i
     
     return suma
-
-def test_es_potencia():
-    assert es_potencia_de_dos_for(2) and es_potencia_de_dos_while(2) and es_potencia_de_dos_recursivo(2) == True
-    assert es_potencia_de_dos_for(64) == True
-    assert es_potencia_de_dos_while(64) == True
-    assert es_potencia_de_dos_recursivo(64) == True
-
-def test_devolver_suma():
-    assert devolver_suma(1, 10) == 15
-    assert devolver_suma(2, 10) == 14
-    assert devolver_suma(32, 33) == 32
-    assert devolver_suma(32, 65) == 96

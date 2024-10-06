@@ -1,4 +1,4 @@
-def celcius_fahrenheit(celcius):
+def celcius_fahrenheit(celcius:int) -> int:
     return (celcius * 9 / 5) + 32
 
 def tabla_conversion():
@@ -8,4 +8,4 @@ def tabla_conversion():
             f = str(celcius_fahrenheit(celcius))
             print("Celcius: " + c + " => " + "Fahrenheit: " + f)
 
-tabla_conversion()
+#tabla_conversion()

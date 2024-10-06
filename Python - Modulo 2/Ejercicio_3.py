@@ -1,4 +1,4 @@
-def imprimir_fichas(n, m, delta):
+def imprimir_fichas(n:int, m:int, delta:int) -> int:
     if n > delta:
         return
 
@@ -10,4 +10,4 @@ def imprimir_fichas(n, m, delta):
     
     return imprimir_fichas(n + 1, m + 1, delta)
 
-imprimir_fichas(0, 0, 10)
+#imprimir_fichas(0, 0, 10)
