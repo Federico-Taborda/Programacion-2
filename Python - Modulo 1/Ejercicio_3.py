@@ -1,4 +1,3 @@
-# Recursion en cola
 def imprimir_recursivo(n, m):
     if n == 0:
         return m
@@ -9,7 +8,6 @@ def imprimir_recursivo(n, m):
      
     return imprimir_recursivo(n, m + 1)
 
-# Funcion iterativa
 def imprimir_for(n, m):
     for x in range(n):
         if m % 2 == 0:
@@ -18,9 +16,7 @@ def imprimir_for(n, m):
 
         m += 1
 
-
 def imprimir_iterativo(n, m):
-    
     while n > 0:
         if m % 2 == 0:
             print(m)
@@ -30,7 +26,3 @@ def imprimir_iterativo(n, m):
         m += 1
     
     return m
-
-imprimir_recursivo(5, 10)
-imprimir_for(5, 10)
-imprimir_iterativo(6, 10)

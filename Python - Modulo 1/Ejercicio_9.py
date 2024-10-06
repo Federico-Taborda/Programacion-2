@@ -1,21 +1,17 @@
-# suma :: Number Number -> Number
 # Dados dos numeros (a, b) la funcion devolvera la suma de los mismos
-def suma(a, b):
+def suma(a:int, b:int) -> int:
     return a + b
 
-# resta :: Number Number -> Number
 # Dados dos numeros (a, b) la funcion devolvera la resta de los mismos
-def resta(a, b):
+def resta(a:int, b:int) -> int:
     return a - b
 
-# multiplicacion :: Number Number -> Number
 # Dados dos numeros (a, b) la funcion devolvera la multiplicacion de los mismos
-def multiplicacion(a, b):
+def multiplicacion(a:int, b:int) -> int:
     return a * b
 
-# division :: Number Number -> Number
 # Dados dos numeros (a, b) la funcion devolvera la division de los mismos
-def division(a, b):
+def division(a:int, b:int) -> int:
     if(b == 0):
         return "No se puede dividir por cero"
     
@@ -53,4 +49,4 @@ def calculadora():
         print("Tecla presionada incorrecta")
         return calculadora()
 
-calculadora()
+#calculadora()
