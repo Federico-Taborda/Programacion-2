@@ -134,15 +134,48 @@ def test_promedio():
 def test_mayor_promedio():
     notas = {"Federico": [1, 1, 6], "Gabriel": [7, 7, 8], "Ezequiel": [8, 8, 8]}
     assert mayor_promedio(notas) == "Ezequiel"
+
 # Ejercicio 8
+def test_sinonimizar():
+    # No hay test porque al ser una funcion que retorne un valor random no es necesario verificar
+    pass
 
 # Ejercicio 9
 def test_carrito_compras():
+    assert carrito_compras({"a": 10, "b":10}, {"a": 0, "b": 0}) == 0
     assert carrito_compras({"a": 10, "b": 15, "c":5}, {"a": 1, "b": 3, "c": 2}) == 65
     assert carrito_compras({"jabon": 10, "trapo": 5}, {"jabon": 2,"trapo": 1}) == 25
 
 # Ejercicio 10
+def test_lista_conjunto():
+    assert lista_conjunto([]) == set()
+    assert lista_conjunto(["a"]) == {"a"}
+    assert lista_conjunto([1,1,1,2,3]) == {1, 2, 3}
+    assert lista_conjunto(["a", "b", "c", "a"]) == {"a", "b", "c"}
+
 # Ejercicio 11
+def test_conjunto_palabras():
+    assert conjunto_palbras("esto es una cadena", "esto es otra cadena") == {"esto", "es", "cadena"}
+    assert conjunto_palbras("todos las mañanas", "todas las noches") == {"las"}
+
 # Ejercicio 12
+def test_conjunto():
+    assert conjunto({1, 2, 3}, {3, 4, 5}) == {1, 2, 4, 5}
+    assert conjunto({"a", "b", "c", "d"}, {"d", "c"}) == {"a", "b"}
+
 # Ejercicio 13
+def test_mayor():
+    assert mayor([6,1,2,7,4]) == 7
+
+def test_lista_menores():
+    assert lista_menores([6,1,2,7,4]) == {0, 3, 5}
+
 # Ejercicio 14
+def test_dias_disponibles():
+    lista_nombres = {
+    "a": ["Lun", "Mar", "Jue", "Vie"],
+    "b": ["Jue", "Vie"],
+    "c": ["Mar", "Jue"],
+    "d": ["Jue", "Vie", "Sab", "Dom"]
+}
+    assert dias_disponible(lista_nombres) == {"Jue"}

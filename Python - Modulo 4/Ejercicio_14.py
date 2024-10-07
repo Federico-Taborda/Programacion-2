@@ -10,15 +10,7 @@ def dias_disponible(nombres:dict) -> set:
     
     return set(disponibles)
 
-lista_nombres = {
-    "a": ["Lun", "Mar", "Jue", "Vie"],
-    "b": ["Jue", "Vie"],
-    "c": ["Mar", "Jue"],
-    "d": ["Jue", "Vie", "Sab", "Dom"]
-}
-
-print(dias_disponible(lista_nombres))
-
+# Solucion de la clase practica
 def ej14(dict):
     a = set(range(1,31))
     for element in dict:
