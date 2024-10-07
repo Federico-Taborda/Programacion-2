@@ -32,5 +32,9 @@ def guardar_linea_cifrada(linea, archivo):
     file.write(linea)
     file.close
 
-rot13("oraciones.txt", "oraciones-cifradas.txt")
-rot13("oraciones-cifradas.txt", "oraciones-desifradas.txt")
+def main():
+  rot13("oraciones.txt", "oraciones-cifradas.txt")
+  rot13("oraciones-cifradas.txt", "oraciones-desifradas.txt")
+  
+if __name__ == "__main__":
+  main()

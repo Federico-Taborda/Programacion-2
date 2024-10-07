@@ -16,8 +16,6 @@ def cargar_datos(archivo):
 
   return datos
 
-print(cargar_datos("e6.txt"))
-
 def guardar_datos(datos, archivo):
   try:
     file = open(archivo, "a")
@@ -34,4 +32,9 @@ diccionario = {
   "localidad": "dffsfasd"
 }
 
-#guardar_datos(diccionario,"e6.txt")
+def main():
+  guardar_datos(diccionario,"e6.txt")
+  print(cargar_datos("e6.txt"))
+  
+if __name__ == "__main__":
+  main()
