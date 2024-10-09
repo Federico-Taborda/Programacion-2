@@ -1,31 +1,24 @@
 def cargar_datos(archivo):
+  datos = {}
   try:
-    file = open(archivo, "r")
+    with open(archivo, "r") as file:
+      for line in file:
+        contenido = line.split(":")
+        clave = contenido[0]
+        valor = contenido[1]
+        datos[clave] = valor
+      return datos
   except:
     print("El archivo no existe")
 
-  datos = {}
-
-  for line in file:
-    contenido = line.split(":")
-    clave = contenido[0]
-    valor = contenido[1]
-    datos[clave] = valor
-
-  file.close()
-
-  return datos
 
 def guardar_datos(datos, archivo):
   try:
-    file = open(archivo, "a")
+    with open(archivo, "a") as file:
+      for dato in datos:
+        file.write(dato + ":" + datos[dato] + "\n")
   except:
     print("El archivo no existe")
-
-  for dato in datos:
-    file.write(dato + ":" + datos[dato] + "\n")
-  
-  file.close()
 
 diccionario = {
   "calle": "fddsafdsaf",
