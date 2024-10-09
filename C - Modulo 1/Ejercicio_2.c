@@ -11,3 +11,5 @@ int main() {
     printf("Los resultados son %d y %d ", c, e);
     return 0;
 }
+
+// La salida es 4 y 10
