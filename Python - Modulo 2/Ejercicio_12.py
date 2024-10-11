@@ -78,6 +78,6 @@ def imprimir_primos(n):
             
     return cantidad_primos
 
-print(imprimir_primos(10000000))
+#print(imprimir_primos(10000000))
 
 

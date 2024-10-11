@@ -54,4 +54,3 @@ def test_devolver_suma():
     assert devolver_suma(32, 65) == 96
     
 # Ejercicio 14
-# Ejercicio 15

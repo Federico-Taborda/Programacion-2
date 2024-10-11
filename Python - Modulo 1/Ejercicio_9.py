@@ -1,16 +1,12 @@
-# Dados dos numeros (a, b) la funcion devolvera la suma de los mismos
 def suma(a:int, b:int) -> int:
     return a + b
 
-# Dados dos numeros (a, b) la funcion devolvera la resta de los mismos
 def resta(a:int, b:int) -> int:
     return a - b
 
-# Dados dos numeros (a, b) la funcion devolvera la multiplicacion de los mismos
 def multiplicacion(a:int, b:int) -> int:
     return a * b
 
-# Dados dos numeros (a, b) la funcion devolvera la division de los mismos
 def division(a:int, b:int) -> int:
     if(b == 0):
         return "No se puede dividir por cero"
@@ -35,6 +31,7 @@ def calculadora():
     
     opcion = int(input("Elija una operacion"))
 
+    # Uso de funciones de alto orden. Se pasa la operacion necesitada dependiendo del valor introducido
     if opcion == 1: 
         introducir_valores(suma)
     elif opcion == 2:
