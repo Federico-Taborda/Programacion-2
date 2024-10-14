@@ -1,8 +1,7 @@
 import random
 
-cartas = [ "picas", "trebol", "diamantes", "corazones" ]
-
 def tomar_carta() -> tuple:
+    cartas = [ "picas", "trebol", "diamantes", "corazones" ]
     numero = random.randint(1, 13)
     carta = random.randint(0, 3)
 
@@ -23,7 +22,6 @@ def contar_repeticiones(mano:list) -> bool:
                 repeticiones += 1
         
         if repeticiones >= 4:
-            print(mano)
             return True
     
     return False
@@ -38,5 +36,5 @@ def poker():
     
     return contar_repeticiones(mano)
 
-for x in range(10000):
-    poker()
+#for x in range(10000):
+    #poker()

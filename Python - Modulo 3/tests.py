@@ -11,6 +11,7 @@ from Ejercicio_10 import *
 from Ejercicio_11 import *
 from Ejercicio_12 import *
 from Ejercicio_13 import *
+from Ejercicio_14 import *
 
 # Ejercicio 1
 def test_posiciones_multiplo():
@@ -70,6 +71,19 @@ def test_elimina_duplicado():
     assert elimina_duplicado_conjuntos([1, 1, 1]) == [1]
 
 # Ejercicio 7
+def test_cantidad_elementos_distintos():
+    assert cantidad_elementos_distintos([]) == 0
+    assert cantidad_elementos_distintos(["a","a","b"]) == 2
+    assert cantidad_elementos_distintos([1,1,2]) == 2
+    assert cantidad_elementos_distintos([1,2,3]) == 3
+    assert cantidad_elementos_distintos(["a","b","c"]) == 3
+
+def test_cantidad_elementos_distintos_recursiva():
+    assert cantidad_elementos_distintos_recursivo([]) == 0
+    assert cantidad_elementos_distintos_recursivo(["a","a","b"]) == 2
+    assert cantidad_elementos_distintos_recursivo([1,1,2]) == 2
+    assert cantidad_elementos_distintos_recursivo([1,2,3]) == 3
+    assert cantidad_elementos_distintos_recursivo(["a","b","c"]) == 3
 
 # Ejercicio 8
 def test_busqueda_dicotomica():
@@ -117,6 +131,10 @@ def test_contar():
     assert contar_recursiva("a", "palabra") == 3
 
 # Ejercicio 11
+def test_contar_vocales():
+    assert contar_vocales("hola mundo") == [1, 0, 0, 2, 1]
+    assert contar_vocales("programacion") == [2, 0, 1, 2, 0]
+    assert contar_vocales("esto es una cadena") == [3, 3, 0, 1, 1]
 
 # Ejercicio 12
 def test_contar_palabras():
@@ -127,5 +145,9 @@ def test_contar_palabras():
 # Ejercicio 13
 
 # Ejercicio 14
+def test_suma_tiempo():
+    assert suma_tiempo((0,59,0), (0,0,60)) == (1,0,0)
+    assert suma_tiempo((0,0,30), (0,0,30)) == (0,1,0)
+    assert suma_tiempo((0,0,31), (0,0,30)) == (0,1,1)
 
 # Ejercicio 15

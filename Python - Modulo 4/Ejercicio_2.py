@@ -19,6 +19,3 @@ def valor_maximo_dos(lista:list) -> tuple:
             indice = x
     
     return (maximo, indice)
-
-#print(valor_maximo([3,4,7,2,5,1,3,5,8,11,2,55]))
-#print(valor_maximo(["f", "h", "a", "i", "r", "s"]))

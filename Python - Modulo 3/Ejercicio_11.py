@@ -14,6 +14,4 @@ def contar_vocales(cadena:str) -> any:
         elif x == vocales[4]:
             contadores[4] += 1
 
-    return print(contadores[0], contadores[1] ,contadores[2] ,contadores[3] ,contadores[4])
-
-contar_vocales("esto es una cadena")
+    return contadores

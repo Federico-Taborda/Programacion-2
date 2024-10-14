@@ -1,4 +1,7 @@
 def cantidad_elementos_distintos(lista:list) -> int:
+    if lista == []:
+        return 0
+    
     nueva_lista = []
 
     for x in lista:
@@ -7,4 +10,14 @@ def cantidad_elementos_distintos(lista:list) -> int:
     
     return len(nueva_lista)
 
-print(cantidad_elementos_distintos(["a", "a", "b"]))
+def cantidad_elementos_distintos_recursivo(lista:list, nueva_lista:list = [], indice:int = 0) -> int:
+    if lista == []:
+        return 0
+    
+    if indice >= len(lista):
+        return len(nueva_lista)
+    
+    if not lista[indice] in nueva_lista:
+        return cantidad_elementos_distintos_recursivo(lista, nueva_lista + [lista[indice]], indice + 1)
+
+    return cantidad_elementos_distintos_recursivo(lista, nueva_lista, indice + 1)
