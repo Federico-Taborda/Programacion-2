@@ -7,7 +7,7 @@
 # bash compilar.sh 2 Ejercicio_1.c 
 
 compilar() {
-    gcc -o ejecutable -Wall ./'C - Modulo '$1/$2
+    gcc -Wall -o  ejecutable ./'C - Modulo '$1/$2 -lm
     ./ejecutable
 }
 
