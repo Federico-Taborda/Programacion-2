@@ -34,3 +34,31 @@ conjuntos:set
 def mi_funcion(cadena:str, numero:int, lista:list) -> int:
 
 ```
+
+# Ejecutar tests
+
+## Python test
+
+Para ejecutar los test de los modulos de python ejecutar el bash python_test.sh
+
+```
+// Ejecuta los test de un modulo en especifico
+bash python_test.sh [numero del modulo]
+
+// Ejecuta los test de todos los modulos
+bash python_test.sh
+
+```
+
+# Compilar los ejercicios de C
+
+Para compilar un ejercicio de los modulos de C se puede hacer de dos maneras
+
+```
+// Compila un ejercicio si estas en el mismo directorio del archivo
+gcc -Wall -o [nombre del ejercicio]
+
+// Compila un ejercicio dado de un modulo dado y lo ejecuta
+bash compilar.sh [numero de modulo] [nombre del ejercicio]
+
+```
