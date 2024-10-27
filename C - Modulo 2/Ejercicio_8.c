@@ -1,22 +1,27 @@
 #include<stdio.h>
 
 int main() {
-    int n;
+    int ingresado;
     int pasos = 0;
 
     printf("Ingrese un numero positivo\n");
-    scanf("%d", &n);
+    scanf("%d", &ingresado);
 
-    for (; n > 1; pasos++) {
-        if(n % 2 == 0) {
-            n /= 2;
-        }else{
-            n = (n * 3) + 1;
-        }
-        printf("El siguiente valor es %d\n", n);
+    while (ingresado < 1) {
+        printf("El numero no puede ser negativo. Ingrese otro numero\n");
+        scanf("%d", &ingresado);
     }
 
-    printf("Valor final %d, numero de pasos %d\n", n, pasos);
+    for (; ingresado > 1; pasos++) {
+        if(ingresado % 2 == 0) {
+            ingresado /= 2;
+        }else{
+            ingresado = (ingresado * 3) + 1;
+        }
+        printf("El siguiente valor es %d\n", ingresado);
+    }
+
+    printf("Valor final %d, numero de pasos %d\n", ingresado, pasos);
 
     return 0;
 }

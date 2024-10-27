@@ -1,22 +1,27 @@
 #include<stdio.h>
 #include<string.h>
 
-int contarApariciones(char cadena[], char letra) {
+int contar_caracter(char cadena[], char caracter) {
     int contador = 0;
-
+    
     for (int i = 0; i < strlen(cadena); i++) {
-        if(cadena[i] == letra) contador++;
+        if(cadena[i] == caracter) contador++;
     }
 
     return contador;
 }
 
 int main() {
-    char letra = 'a';
-    char cadena[] = "palabra";
-    int cantidad = contarApariciones(cadena, letra);
+    char cadena[] = "";
+    char caracter;
+    int contador = 0;
 
-    printf("El caracter %c aparece %d veces en la cadena\n", letra, cantidad);
+    printf("Ingrese una cadena y un caracter\n");
+    scanf("%s %c", cadena, &caracter);
+
+    contador = contar_caracteres(cadena, caracter);
+
+    printf("El caracter %c aparece %d veces en %s\n", caracter, contador, cadena);
 
     return 0;
 }
