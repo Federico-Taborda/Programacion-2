@@ -1,48 +1,45 @@
 #include<stdio.h>
 #include<math.h>
 
-int sumatoria_uno() {
+int sumatoria_a() {
     for (int i = 1; i < 100; i++) {
-        int j = 1 / i;
-        printf("%d\n", j);
+        printf("1/%d\n", i);
     }
     
     return 0;
 }
 
-int sumatoria_dos() {
+int sumatoria_b() {
     for (int i = 1; i < 100; i++) {
         double k = pow(i, 2);
-        int j = 1 / k;
-        printf("%d\n", j);
+        printf("1/%.0f\n", k);
     }
     
     return 0;
 }
 
-int sumatoria_tres() {
+int sumatoria_c() {
     for (int i = 1; i < 100; i++) {
         double k = pow(i, i);
-        int j = 1 / k;
-        printf("%d\n", j);
+        printf("1/%.0f\n", k);
     }
     
     return 0;
 }
 
-int sumatoria_cuatro() {
+int sumatoria_d() {
     for (int i = 1; i < 100; i++) {
         int j = (i + 1) * i;
-        printf("%d\n", j);
+        printf("1/%d\n", j);
     }
     
     return 0;
 }
 
 int main() {
-    //sumatoria_uno();
-    //sumatoria_dos();
-    //sumatoria_tres();
-    //sumatoria_cuatro();
+    //sumatoria_a();
+    //sumatoria_b();
+    //sumatoria_c();
+    //sumatoria_d();
     return 0;
 }
