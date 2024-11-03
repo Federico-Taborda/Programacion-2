@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<string.h>
 
-// Lanza un warning
 int main() {
     char cadena[100];
     char reves[100];
@@ -16,8 +15,9 @@ int main() {
         reves[j] = cadena[i];
     }
 
-    reves[j] = "\0";
+    reves[j + 1] = '\0';
 
+    printf("Cadena original: %s\n", cadena);
     printf("Cadena invertida: %s\n", reves);
 
     return 0;

@@ -1,9 +1,9 @@
 #include<stdio.h>
 
-int sumArr(int arr[], int longitud) {
+int prodAlt(int arr[], int longitud) {
     if(longitud == 0) return 0;
 
-    return arr[longitud - 1] + sumArr(arr, longitud - 1);
+    return arr[longitud - 1] + prodAlt(arr, longitud - 1);
 }
 
 int main() {
@@ -15,9 +15,9 @@ int main() {
         arr[i] = i;
     }
 
-    suma = sumArr(arr, longitud);
+    suma = prodAlt(arr, longitud);
 
-    printf("%d", suma);
+    printf("%d\n", suma);
     
     return 0;
 }

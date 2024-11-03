@@ -1,11 +1,11 @@
 #include<stdio.h>
 
-int sumArr(int arr[], int longitud) {
+int prodAlt(int arr[], int longitud) {
     if(longitud == 1) return 1;
 
-    if(longitud % 2 == 0) return arr[longitud - 1] * sumArr(arr, longitud - 1);
+    if(longitud % 2 == 0) return arr[longitud - 1] * prodAlt(arr, longitud - 1);
 
-    return 1 * sumArr(arr, longitud - 1);
+    return 1 * prodAlt(arr, longitud - 1);
 }
 
 int main() {
@@ -17,9 +17,9 @@ int main() {
         arr[i] = i;
     }
 
-    producto = sumArr(arr, longitud);
+    producto = prodAlt(arr, longitud);
 
-    printf("%d", producto);
+    printf("%d\n", producto);
     
     return 0;
 }
