@@ -2,23 +2,23 @@
 #include<string.h>
 
 int main() {
-    char cadena[100];
-    char reves[100];
+    char cadena_ingresada[100];
+    char cadena_invertida[100];
     int i, j;
 
     printf("Ingrese una cadena\n");
-    scanf("%s", cadena);
+    scanf("%s", cadena_ingresada);
 
-    i = strlen(cadena) - 1;
+    i = strlen(cadena_ingresada) - 1;
 
     for(j = 0; i >= 0; i--, j++) {
-        reves[j] = cadena[i];
+        cadena_invertida[j] = cadena_ingresada[i];
     }
 
-    reves[j + 1] = '\0';
+    cadena_invertida[j + 1] = '\0';
 
-    printf("Cadena original: %s\n", cadena);
-    printf("Cadena invertida: %s\n", reves);
+    printf("Cadena original: %s\n", cadena_ingresada);
+    printf("Cadena invertida: %s\n", cadena_invertida);
 
     return 0;
 }
