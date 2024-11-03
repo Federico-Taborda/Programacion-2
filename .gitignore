@@ -2,3 +2,6 @@ __pycache__
 .pytest_cache
 .vscode
 .out
+
+# Ejecutable de la compilacion de un ejercicio en C
+ejecutable
