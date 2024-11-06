@@ -2,14 +2,14 @@
 #include<string.h>
 
 int contenido(char cadena_uno[], char cadena_dos[]) {
-    int largo = 0;
+    int j = 0;
 
     for (int i = 0; i < strlen(cadena_uno); i++) {
-        if(cadena_uno[i] == cadena_dos[largo]) largo++;
-        
+        if(cadena_uno[i] != cadena_dos[j] && j < strlen(cadena_dos)) j = 0;
+        if(cadena_uno[i] == cadena_dos[j]) j++;
     }
 
-    if (largo == strlen(cadena_dos)) return 1;
+    if (j == strlen(cadena_dos)) return 1;
     
     return 0;
 }
