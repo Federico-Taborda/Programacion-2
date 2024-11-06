@@ -37,6 +37,14 @@ def mi_funcion(cadena:str, numero:int, lista:list) -> int:
 
 ```
 
+# C - Anotaciones
+
+- Para declarar secuencias de caracteres se deben utilizar "".
+
+- Para declarar caracteres se deben utilizar ''.
+
+- En C cualquier valor distinto de 0 es considerado verdadero como numeros negativos y positivos.
+
 # Ejecutar tests
 
 ## Python test
