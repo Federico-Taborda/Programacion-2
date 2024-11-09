@@ -1,11 +1,9 @@
 #include<stdio.h>
 #include<string.h>
 
-// Invierte pero no compara correctamente
 int main() {
     char cadena_ingresada[100];
-    char cadena_invertida[100];
-    int i, j;
+    int i, j, len = 0;
 
     printf("Ingrese una cadena\n");
     scanf("%s", cadena_ingresada);
@@ -13,18 +11,14 @@ int main() {
     i = strlen(cadena_ingresada) - 1;
 
     for(j = 0; i >= 0; i--, j++) {
-        cadena_invertida[j] = cadena_ingresada[i];
+        if(cadena_ingresada[j] == cadena_ingresada[i]) len++;
     }
 
-    cadena_invertida[j + 1] = '\0';
-
-    printf("%s %s\n", cadena_ingresada, cadena_invertida);
-    if (cadena_ingresada == cadena_invertida) {
+    if (len == strlen(cadena_ingresada)) {
         printf("%s es capicua\n", cadena_ingresada);
+        return 0;
     }
 
     printf("%s no es capicua\n", cadena_ingresada);
-    
-
     return 0;
 }

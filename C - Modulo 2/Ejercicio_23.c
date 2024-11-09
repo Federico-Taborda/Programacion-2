@@ -20,7 +20,7 @@ int main() {
     int resultado;
 
     printf("Ingrese dos cadenas:\n");
-    scanf("%s%s\n", cadena_uno, cadena_dos);
+    scanf("%s %s\n", cadena_uno, cadena_dos);
 
     resultado = contenido(cadena_uno, cadena_dos);
 
