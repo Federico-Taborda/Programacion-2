@@ -19,8 +19,11 @@ int main() {
     char cadena_dos[100];
     int resultado;
 
-    printf("Ingrese dos cadenas:\n");
-    scanf("%s %s\n", cadena_uno, cadena_dos);
+    printf("Ingrese una cadena:\n");
+    scanf(" %[^\n]", cadena_uno);
+
+    printf("Ingrese otra cadena:\n");
+    scanf(" %[^\n]", cadena_dos);
 
     resultado = contenido(cadena_uno, cadena_dos);
 

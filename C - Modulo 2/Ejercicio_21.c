@@ -6,7 +6,7 @@ int main() {
     int i, j, len = 0;
 
     printf("Ingrese una cadena\n");
-    scanf("%s", cadena_ingresada);
+    scanf("%[^\n]", cadena_ingresada);
 
     i = strlen(cadena_ingresada) - 1;
 
