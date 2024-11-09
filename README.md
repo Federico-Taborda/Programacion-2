@@ -45,6 +45,15 @@ def mi_funcion(cadena:str, numero:int, lista:list) -> int:
 
 - En C cualquier valor distinto de 0 es considerado verdadero como numeros negativos y positivos.
 
+```
+// Lee una cadena hasta un salto de linea "\n"
+// scanf("%[^\n]", buffer)
+```
+```
+// Lee una cadena inclusive el salto de linea \n
+// scanf("%[\n]%*c", buffer)
+```
+
 # Ejecutar tests
 
 ## Python test
