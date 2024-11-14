@@ -1,29 +1,43 @@
 #include<stdio.h>
 #include<math.h>
 
-struct punto { double x; double y; } p1, p2;
+typedef struct { double x; double y; } Punto;
 
-double proyeccion(struct punto p, char eje) {
+double proyeccion(Punto p, char eje) {
+    if(eje == 'x') return 'y';
+    if(eje == 'y') return 'x';
     return 0;
 }
 
-double distancia(struct punto p1, struct punto p2) {
+double distancia(Punto p1, Punto p2) {
     double dist;
     dist = sqrt(pow((p2.x - p1.x) , 2) + pow((p2.y - p1.y) , 2));
     return dist;
 }
 
-char cuadrante(struct punto p) {
-    if(p.x == 0 && p.y == 0) return '0';
-    if(p.x == 0) return 'y';
+char cuadrante(Punto p) {
+
+    if(p.x == 0) {
+        if(p.y == 0) return 'o';
+        return 'y';
+    }
+
     if(p.y == 0) return 'x';
-    if(p.x > 0 && p.y > 0) return '1';
-    if(p.x < 0 && p.y > 0) return '2';
-    if(p.x < 0 && p.y < 0) return '3';
-    if(p.x > 0 && p.y < 0) return '4';
+
+    if(p.x > 0) {
+        if(p.y > 0) return '1';
+        return '4';
+    }
+
+    if(p.x < 0) {
+        if(p.y > 0) return '2';
+        return '3';
+    }
 }
 
 int main() {
+    Punto p1;
+    Punto p2;
     double proy, dist;
     char eje_x = 'x';
     char eje_y = 'y';
