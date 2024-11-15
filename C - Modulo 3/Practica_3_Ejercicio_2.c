@@ -13,3 +13,22 @@ int main() {
 
     return 0;
 }
+
+/*
+a = tipo:(int) valor:3
+&a = tipo:(int*) valor:direccion de memoria
+*ptr = tipo:(int) valor:3
+ptr = tipo:(int*) valor:direccion de memoria
+&ptr = tipo:(int*) valor:direccion de memoria
+
+qtr = tipo:(int*) valor:10
+*qtr = tipo:(int) valor:10
+vector = tipo:(int*) valor:direccion de memoria
+&vector = tipo:(int*) valor:direccion de memoria
+*vector = tipo:(int) valor:10
+
+++qtr = tipo:(int*) valor:direccion de memoria
+++*qtr = tipo:(int) valor:11
+++*vector = tipo:(int) valor:11
+*&ptr = tipo:(int*) valor:direccion de memoria
+*/
