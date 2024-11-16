@@ -13,9 +13,8 @@ int main() {
     int producto;
     int arr[longitud];
 
-    for(int i = 0; i < longitud; i++) {
+    for(int i = 0; i < longitud; i++) 
         arr[i] = i;
-    }
 
     producto = prodAlt(arr, longitud);
 

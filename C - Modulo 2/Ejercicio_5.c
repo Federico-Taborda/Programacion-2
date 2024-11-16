@@ -8,9 +8,9 @@ int main() {
 
     if (x >=1 && y>=1 && x<=20 && y<=20) {
         for (int i=1; i<=y; i++) {
-            for (int j=1; j<=x; j++) {
+            for (int j=1; j<=x; j++)
                 printf ("@");
-            }
+            
             printf ("\n");
         }
     } else {

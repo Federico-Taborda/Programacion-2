@@ -10,9 +10,10 @@ int main() {
 
     i = strlen(cadena_ingresada) - 1;
 
-    for(j = 0; i >= 0; i--, j++) {
-        if(cadena_ingresada[j] == cadena_ingresada[i]) len++;
-    }
+    for(j = 0; i >= 0; i--, j++) 
+        if(cadena_ingresada[j] == cadena_ingresada[i]) 
+            len++;
+    
 
     if (len == strlen(cadena_ingresada)) {
         printf("%s es capicua\n", cadena_ingresada);

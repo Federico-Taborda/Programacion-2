@@ -12,9 +12,9 @@ int main() {
     printf("Ingrese una cadena\n");
     scanf(" %[^\n]", cadena);
 
-    while(cadena[i] != letra && i < strlen(cadena)) {
+    while(cadena[i] != letra && i < strlen(cadena))
         i++;
-    }
+
 
     if(i < strlen(cadena)) {
         printf("El caracter %c esta en la cadena\n", letra);

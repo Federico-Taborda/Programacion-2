@@ -17,9 +17,10 @@ int main() {
 
     for (int i = 0; i <= largo; i++) {
         int apariciones_dos = 0;
-        for (int j = 0; j <= largo; j++) {
-            if (enteros[i] == enteros[j]) apariciones_dos++;
-        }
+        for (int j = 0; j <= largo; j++) 
+            if (enteros[i] == enteros[j]) 
+                apariciones_dos++;
+        
 
         if (apariciones < apariciones_dos) {
             x = enteros[i];

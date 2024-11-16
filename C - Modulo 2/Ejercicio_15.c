@@ -11,9 +11,8 @@ int main() {
     int suma;
     int arr[longitud];
 
-    for(int i = 0; i < longitud; i++) {
+    for(int i = 0; i < longitud; i++) 
         arr[i] = i;
-    }
 
     suma = sumArr(arr, longitud);
 

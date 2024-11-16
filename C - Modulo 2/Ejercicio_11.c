@@ -12,9 +12,9 @@ int main() {
         }
     }
 
-    for (int j = 49; j >= 0; j--) {
+    for (int j = 49; j >= 0; j--) 
         printf("%d: %d\n", j,numeros[j]);
-    }
+    
     
     return 0;
 }

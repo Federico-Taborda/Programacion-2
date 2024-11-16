@@ -20,9 +20,9 @@ int main() {
         suma += numeros[i];
     }
 
-    if(suma > 30) {
+    if(suma > 30) 
         printf("%d es mayor a 30\n", suma);
-    }
+    
 
     printf("%d es menor a 30\n", suma);
 

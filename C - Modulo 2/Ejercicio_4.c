@@ -8,9 +8,9 @@ int main() {
             c = a * a + b * b;
             
             int c_int = (int)sqrt(c);
-            if (c_int * c_int == c) {
+            if (c_int * c_int == c) 
                 printf("(%d, %d, %d)\n", a, b, c_int);
-            }
+            
         }
     }
 

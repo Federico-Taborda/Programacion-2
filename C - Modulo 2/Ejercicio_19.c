@@ -12,7 +12,8 @@ int contar_caracter(char cadena[], char caracter) {
 }
 
 int contar_recursivo(char cadena[], char caracter, int indice, int contador) {
-    if(cadena[indice] == '\0') return contador;
+    if(cadena[indice] == '\0') 
+        return contador;
 
     if(cadena[indice] == caracter)
         contador++;

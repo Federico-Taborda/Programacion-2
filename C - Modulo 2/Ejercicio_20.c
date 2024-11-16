@@ -11,9 +11,9 @@ int main() {
 
     i = strlen(cadena_ingresada) - 1;
 
-    for(j = 0; i >= 0; i--, j++) {
+    for(j = 0; i >= 0; i--, j++) 
         cadena_invertida[j] = cadena_ingresada[i];
-    }
+    
 
     printf("Cadena original: %s\n", cadena_ingresada);
     printf("Cadena invertida: %s\n", cadena_invertida);

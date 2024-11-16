@@ -5,19 +5,24 @@ int contenido(char cadena_uno[], char cadena_dos[]) {
     int j = 0;
 
     for (int i = 0; i < strlen(cadena_uno); i++) {
-        if(cadena_uno[i] != cadena_dos[j] && j < strlen(cadena_dos)) j = 0;
-        if(cadena_uno[i] == cadena_dos[j]) j++;
+        if(cadena_uno[i] != cadena_dos[j] && j < strlen(cadena_dos)) 
+            j = 0;
+        if(cadena_uno[i] == cadena_dos[j]) 
+            j++;
     }
 
-    if (j == strlen(cadena_dos)) return 1;
+    if (j == strlen(cadena_dos)) 
+        return 1;
     
     return 0;
 }
 
 int contenido_recursivo(char cadena_uno[], char cadena_dos[], int indice, int j) {
     if(cadena_uno[indice] == '\0') {
-        if (j == strlen(cadena_dos)) return 1;
-        else return 0;
+        if (j == strlen(cadena_dos)) 
+            return 1;
+        else 
+            return 0;
     }
     
     if(cadena_uno[indice] != cadena_dos[j] && j < strlen(cadena_dos)) 
