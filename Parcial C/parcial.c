@@ -33,11 +33,14 @@ int subsecuencia(char s[], char t[]) {
 
 int elementosDistintos(char s[]) {
     int distintos = 0;
+    int repeticiones = 0;
     for (int i = 0; i < strlen(s); i++) {
         int yaLoTengo = 0;
-        for (int j = 0; j < i ; j++) {
+        int j = 0;
+        while (j < i && !yaLoTengo) {
             if(s[i] == s[j])
                 yaLoTengo = 1;
+            j++;
         }
 
         if(!yaLoTengo)
