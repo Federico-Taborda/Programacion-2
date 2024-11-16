@@ -12,7 +12,8 @@ int esRectangulo(int a, int b, int c) {
     mayor = maximo(a, b);
     mayor = maximo(mayor, c);
 
-    if(pow(mayor, 2) == pow(a, 2) + pow(b, 2) + pow(c, 2) - pow(mayor, 2))  return 1;
+    if(pow(mayor, 2) == pow(a, 2) + pow(b, 2) + pow(c, 2) - pow(mayor, 2)) 
+        return 1;
 
     return 0;
 }

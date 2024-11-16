@@ -14,7 +14,8 @@ int main() {
     mayor = maximo(a, b);
     mayor = maximo(mayor, c);
 
-    if(a + b + c - mayor > mayor)  return 1;
+    if(a + b + c - mayor > mayor) 
+        return 1;
 
     return 0;
 }

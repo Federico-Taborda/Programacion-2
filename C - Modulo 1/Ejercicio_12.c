@@ -1,17 +1,16 @@
 #include<stdio.h>
 
 int es_primo(int n) {
-    if(n == 1) {
-        return -1 ;
-    }
+    if(n == 1) 
+        return -1;
 
     int cantidad_divisores = 0;
     int contador = 1;
 
     while(contador < n) {
-        if(n % contador == 0) {
+        if(n % contador == 0) 
             cantidad_divisores++;
-        }
+
         contador++;
     }
 
