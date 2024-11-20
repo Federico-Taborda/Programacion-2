@@ -13,6 +13,7 @@ int *direccion_local(int x) {
 Se declara un puntero ptr de tipo entero inizializado en Nulo
 Se le asigna la salida de la funcion direccion local a ptr
 Se imprime por pantalla el valor del puntero ptr
+Salida: 2
 */
 int main() {
     int *ptr = NULL;

@@ -8,7 +8,7 @@ Se guarda la direccion de memoria del tercer elemento del array v en el puntero 
 Se retrocede una posicion en memoria a la que apunta p
 Se le asigna a la variable a:
 La suma del valor de p (4) mas p + 1 (5) mas v + 1 (4) mas p[2] (7)
-Se imprime el valor de a por pantalla = 20
+Salida: 20
 */
 
 int main() {

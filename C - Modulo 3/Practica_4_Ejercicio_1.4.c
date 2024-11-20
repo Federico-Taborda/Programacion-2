@@ -9,6 +9,7 @@ Se le asigna el valor 9 al tercer elemento del array x mediante aritmetica de pu
 Se le asigna el valor 7 al cuarto elemento del array x mediante aritmetica de punteros
 Se le asigna el valor 11 al segundo elemento del array x
 Se itera sobre todos los elementos del array e imprime su valor mediante aritmetica de punteros
+// Salida: 1 11 9 7 5
 */
 
 int main() {

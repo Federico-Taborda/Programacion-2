@@ -20,7 +20,7 @@ Se le asigna el valor de z a 15
 Se le pasa como argumento la direccion de memoria de x e y junto el valor de z
 a la funcion aumentar
 Se imprimen el valor de x y z por pantalla
-5 15 15
+Salida: 5 15 15
 */
 
 int main() {

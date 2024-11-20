@@ -7,7 +7,7 @@ y un entero longitud y retorna un puntero de tipo char
 Se declara un puntero a de tipo char
 Se inicializa a pidiendo un bloque de memoria de tamaño char * longitud
 Se itera por cada direccion de memoria del puntero a y se copia el valor de la
-cadena cad en esa posicion
+cadena cad en esa posicion al puntero a
 */
 
 char* copiar_cadena(char* cad, int longitud) {

@@ -11,6 +11,7 @@ Se le asigna el valor 7 al tercer elemento del array x mediante aritmetica de pu
 Se le asigna el valor 11 al cuarto elemento del array x
 Se le asigna la direccion de memoria del primer elemento del array x al puntero punt
 Se itera sobre todos los elementos del array y se los imprime por pantalla
+Salida: 1 9 7 11 5
 */
 
 int main() {
