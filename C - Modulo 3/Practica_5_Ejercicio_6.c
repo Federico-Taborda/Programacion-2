@@ -9,7 +9,8 @@ char *getnewline() {
     printf("Ingrese una cadena\n");
     scanf("%[^\n]", temp);
 
-    linea = temp;
+    linea = malloc(sizeof(char) * (strlen(temp) + 1));
+    strcpy(linea, temp);
     return linea;
 }
 
@@ -18,5 +19,7 @@ int main() {
     p = getnewline();
 
     printf("%s\n", p);
+    
+    free(p);
     return 0;
 }
