@@ -1,0 +1,6 @@
+Esto es una cadena
+Esto es otra cadena
+Las cadenas son divertidas
+Manejar archivos con C no es divertido
+Volve python
+Nunca mas racket
