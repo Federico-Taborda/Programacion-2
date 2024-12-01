@@ -19,6 +19,34 @@ typedef struct {
     Casilla objetivo;
 } Laberinto;
 
+int inicializarLaberinto(Laberinto *laberinto, FILE *archivoEntrada);
+int coordenadaAleatoria(int n);
+void crearObstaculosAleatorios(Laberinto *laberinto);
+void colocarPosiciones(Laberinto *laberinto);
+void colocarObstaculosFijos(Laberinto *laberinto);
+void colocarObstaculosAleatorios(Laberinto *laberinto);
+void inicializarMatriz(Laberinto *laberinto);
+void imprimirLaberinto(Laberinto *laberinto);
+void liberarLaberinto(Laberinto *laberinto);
+
+int main() {
+    srand(time(NULL));
+    Laberinto laberinto;
+    FILE *archivoEntrada = fopen("./entrada-C.txt", "r");
+
+    inicializarLaberinto(&laberinto, archivoEntrada);
+    inicializarMatriz(&laberinto);
+    colocarPosiciones(&laberinto);
+    colocarObstaculosFijos(&laberinto);
+    crearObstaculosAleatorios(&laberinto);
+    colocarObstaculosAleatorios(&laberinto);
+
+    imprimirLaberinto(&laberinto);
+    
+    liberarLaberinto(&laberinto);
+    return 0;
+}
+
 // Dado un laberinto y un archivo de entrada la funcion inicializa los datos del laberinto
 int inicializarLaberinto(Laberinto *laberinto, FILE *archivoEntrada) {
     char lineas[50];
@@ -148,22 +176,4 @@ void liberarLaberinto(Laberinto *laberinto) {
     free(laberinto->matrizLaberinto);
     free(laberinto->obstaculosFijos);
     free(laberinto->obstaculosAleatorios);
-}
-
-int main() {
-    srand(time(NULL));
-    Laberinto laberinto;
-    FILE *archivoEntrada = fopen("./entrada-C.txt", "r");
-
-    inicializarLaberinto(&laberinto, archivoEntrada);
-    inicializarMatriz(&laberinto);
-    colocarPosiciones(&laberinto);
-    colocarObstaculosFijos(&laberinto);
-    crearObstaculosAleatorios(&laberinto);
-    colocarObstaculosAleatorios(&laberinto);
-
-    imprimirLaberinto(&laberinto);
-    
-    liberarLaberinto(&laberinto);
-    return 0;
 }
