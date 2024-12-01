@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
+#include <time.h>
 
 typedef struct {
     int x;
@@ -64,6 +65,28 @@ int inicializarLaberinto(Laberinto *laberinto, FILE *archivoEntrada) {
     return 0;
 }
 
+int coordenadaAleatoria(int n) {
+    return rand() % n;
+}
+
+void crearObstaculosAleatorios(Laberinto *laberinto) {
+    laberinto->obstaculosAleatorios = malloc(sizeof(Casilla) * laberinto->cantidadObstaculosAleatorios);
+
+    for (int i = 0; i < laberinto->cantidadObstaculosAleatorios; i++) {
+        Casilla obstaculoAleatorio;
+
+        obstaculoAleatorio.x = coordenadaAleatoria(laberinto->dimension);
+        obstaculoAleatorio.y = coordenadaAleatoria(laberinto->dimension);
+
+        while(laberinto->matrizLaberinto[obstaculoAleatorio.x][obstaculoAleatorio.y] != '0') {
+            obstaculoAleatorio.x = coordenadaAleatoria(laberinto->dimension);
+            obstaculoAleatorio.y = coordenadaAleatoria(laberinto->dimension);
+        }
+
+        laberinto->obstaculosAleatorios[i] = obstaculoAleatorio;
+    }    
+}
+
 void inicializarMatriz(Laberinto *laberinto) {
     laberinto->matrizLaberinto = malloc(sizeof(char *) * laberinto->dimension);
 
@@ -76,7 +99,7 @@ void inicializarMatriz(Laberinto *laberinto) {
         }
     }
 
-    // Inicializamos las casillas de salidas y llegada
+    // Inicializamos las casillas de salida y llegada
     laberinto->matrizLaberinto[laberinto->posicionInicial.x][laberinto->posicionInicial.y] = '|';
     laberinto->matrizLaberinto[laberinto->objetivo.x][laberinto->objetivo.y] = 'X';
 
@@ -86,9 +109,18 @@ void inicializarMatriz(Laberinto *laberinto) {
         int y = laberinto->obstaculosFijos[i].y;
         laberinto->matrizLaberinto[x][y] = '1';
     }
+
+    // Inicializamos los obstaculos aleatorios
+    crearObstaculosAleatorios(laberinto);
+    for (int i = 0; i < laberinto->cantidadObstaculosAleatorios; i++) {
+        int x = laberinto->obstaculosAleatorios[i].x;
+        int y = laberinto->obstaculosAleatorios[i].y;
+        laberinto->matrizLaberinto[x][y] = '1';
+    }   
 }
 
 int main() {
+    srand(time(NULL));
     Laberinto laberinto;
     laberinto.cantidadObstaculosFijos = 0;
     laberinto.obstaculosFijos = malloc(sizeof(Casilla));
@@ -98,18 +130,7 @@ int main() {
     inicializarLaberinto(&laberinto, archivoEntrada);
     inicializarMatriz(&laberinto);
 
-
-
-        // Imprime por pantalla los datos del laberinto
-
-    /* printf("Dimension: %d\n", laberinto.dimension);
-    printf("Obstaculos Fijos:\n");
-    for (int i = 0; i < laberinto.cantidadObstaculosFijos; i++) {
-        printf("(%d, %d)\n", laberinto.obstaculosFijos[i].x, laberinto.obstaculosFijos[i].y);
-    }
-    printf("Obstaculos Aleatorios: %d\n", laberinto.obstaculosAleatorios);
-    printf("Posicion Inicial: (%d, %d)\n", laberinto.posicionInicial.x, laberinto.posicionInicial.y);
-    printf("Objetivo: (%d, %d)\n", laberinto.objetivo.x, laberinto.objetivo.y); */
+    // Imprime por consola el laberinto
     for (int i = 0; i < laberinto.dimension; i++) {
         for (int j = 0; j < laberinto.dimension; j++) {
             printf("%c", laberinto.matrizLaberinto[i][j]);
@@ -117,10 +138,12 @@ int main() {
         printf("\n");
     }
     
-
-
+    // Liberar los espacios de memoria asignados
     fclose(archivoEntrada);
-    free(laberinto.obstaculosFijos);
+    for (int i = 0; i < laberinto.dimension; i++)
+        free(laberinto.matrizLaberinto[i]);
     free(laberinto.matrizLaberinto);
+    free(laberinto.obstaculosFijos);
+    free(laberinto.obstaculosAleatorios);
     return 0;
 }
