@@ -103,6 +103,7 @@ int coordenadaAleatoria(int n) {
     return rand() % n;
 }
 
+// Dado un laberinto la funcion crea obstaculos aleatorios dentro de las dimensiones del tablero
 void crearObstaculosAleatorios(Laberinto *laberinto) {
     laberinto->obstaculosAleatorios = malloc(sizeof(Casilla) * laberinto->cantidadObstaculosAleatorios);
 
