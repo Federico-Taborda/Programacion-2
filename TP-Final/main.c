@@ -19,13 +19,12 @@ typedef struct {
     Casilla objetivo;
 } Laberinto;
 
-int inicializarLaberinto(Laberinto *laberinto, FILE *archivoEntrada);
 int coordenadaAleatoria(int n);
-void crearObstaculosAleatorios(Laberinto *laberinto);
-void colocarPosiciones(Laberinto *laberinto);
-void colocarObstaculosFijos(Laberinto *laberinto);
-void colocarObstaculosAleatorios(Laberinto *laberinto);
+int inicializarLaberinto(Laberinto *laberinto, FILE *archivoEntrada);
 void inicializarMatriz(Laberinto *laberinto);
+void crearObstaculosAleatorios(Laberinto *laberinto);
+void colocarPosiciones(char **matrizLaberinto, Casilla posicionInicial, Casilla posicionObjetivo);
+void colocarObstaculos(char **matrizLaberinto, Casilla obstaculos[], int cantidadObstaculos);
 void imprimirLaberinto(Laberinto *laberinto);
 void liberarLaberinto(Laberinto *laberinto);
 
@@ -36,10 +35,10 @@ int main() {
 
     inicializarLaberinto(&laberinto, archivoEntrada);
     inicializarMatriz(&laberinto);
-    colocarPosiciones(&laberinto);
-    colocarObstaculosFijos(&laberinto);
+    colocarPosiciones(laberinto.matrizLaberinto, laberinto.posicionInicial, laberinto.objetivo);
     crearObstaculosAleatorios(&laberinto);
-    colocarObstaculosAleatorios(&laberinto);
+    colocarObstaculos(laberinto.matrizLaberinto, laberinto.obstaculosFijos, laberinto.cantidadObstaculosFijos);
+    colocarObstaculos(laberinto.matrizLaberinto, laberinto.obstaculosAleatorios, laberinto.cantidadObstaculosAleatorios);
 
     imprimirLaberinto(&laberinto);
     
@@ -98,54 +97,6 @@ int inicializarLaberinto(Laberinto *laberinto, FILE *archivoEntrada) {
     return 0;
 }
 
-// Dado un entero n la funcion devolvera un numero aleatorio de 0 a n - 1 
-int coordenadaAleatoria(int n) {
-    return rand() % n;
-}
-
-// Dado un laberinto la funcion crea obstaculos aleatorios dentro de las dimensiones del tablero
-void crearObstaculosAleatorios(Laberinto *laberinto) {
-    laberinto->obstaculosAleatorios = malloc(sizeof(Casilla) * laberinto->cantidadObstaculosAleatorios);
-
-    for (int i = 0; i < laberinto->cantidadObstaculosAleatorios; i++) {
-        Casilla obstaculoAleatorio;
-
-        obstaculoAleatorio.x = coordenadaAleatoria(laberinto->dimension);
-        obstaculoAleatorio.y = coordenadaAleatoria(laberinto->dimension);
-
-        while(laberinto->matrizLaberinto[obstaculoAleatorio.x][obstaculoAleatorio.y] != '0') {
-            obstaculoAleatorio.x = coordenadaAleatoria(laberinto->dimension);
-            obstaculoAleatorio.y = coordenadaAleatoria(laberinto->dimension);
-        }
-
-        laberinto->obstaculosAleatorios[i] = obstaculoAleatorio;
-    }
-}
-
-// Dado un laberinto coloca las posiciones de salida y llegada
-void colocarPosiciones(Laberinto *laberinto) {
-    laberinto->matrizLaberinto[laberinto->posicionInicial.x][laberinto->posicionInicial.y] = '|';
-    laberinto->matrizLaberinto[laberinto->objetivo.x][laberinto->objetivo.y] = 'X';
-}
-
-// Dado un laberinto coloca los obstaculos fijos en la matriz
-void colocarObstaculosFijos(Laberinto *laberinto) {
-    for (int i = 0; i < laberinto->cantidadObstaculosFijos; i++) {
-        int x = laberinto->obstaculosFijos[i].x;
-        int y = laberinto->obstaculosFijos[i].y;
-        laberinto->matrizLaberinto[x][y] = '1';
-    }
-}
-
-// Dado un laberinto coloca los obstaculos aleatorios en la matriz
-void colocarObstaculosAleatorios(Laberinto *laberinto) {
-    for (int i = 0; i < laberinto->cantidadObstaculosAleatorios; i++) {
-        int x = laberinto->obstaculosAleatorios[i].x;
-        int y = laberinto->obstaculosAleatorios[i].y;
-        laberinto->matrizLaberinto[x][y] = '1';
-    }
-}
-
 // Dado un laberinto inicializa las dimensiones de la matriz
 void inicializarMatriz(Laberinto *laberinto) {
     laberinto->matrizLaberinto = malloc(sizeof(char *) * laberinto->dimension);
@@ -160,6 +111,46 @@ void inicializarMatriz(Laberinto *laberinto) {
     }
 }
 
+// Dado un entero n la funcion devolvera un numero aleatorio de 0 a n-1 
+int coordenadaAleatoria(int n) {
+    return rand() % n;
+}
+
+// Dado un laberinto la funcion crea obstaculos aleatorios dentro de las dimensiones del tablero en casillas no ocupadas
+void crearObstaculosAleatorios(Laberinto *laberinto) {
+    laberinto->obstaculosAleatorios = malloc(sizeof(Casilla) * laberinto->cantidadObstaculosAleatorios);
+
+    for (int i = 0; i < laberinto->cantidadObstaculosAleatorios; i++) {
+        Casilla obstaculoAleatorio;
+
+        obstaculoAleatorio.x = coordenadaAleatoria(laberinto->dimension);
+        obstaculoAleatorio.y = coordenadaAleatoria(laberinto->dimension);
+
+        // Si la casilla en las coordenadas (x,y) esta ocupada genera otro para de coordenadas hasta que no lo este
+        while(laberinto->matrizLaberinto[obstaculoAleatorio.x][obstaculoAleatorio.y] != '0') {
+            obstaculoAleatorio.x = coordenadaAleatoria(laberinto->dimension);
+            obstaculoAleatorio.y = coordenadaAleatoria(laberinto->dimension);
+        }
+
+        laberinto->obstaculosAleatorios[i] = obstaculoAleatorio;
+    }
+}
+
+// Dado una matriz de un laberinto, la posicion inicial y una posicion objetivo la funcion coloca ambas posiciones en la matriz
+void colocarPosiciones(char **matrizLaberinto, Casilla posicionInicial, Casilla posicionObjetivo) {
+    matrizLaberinto[posicionInicial.x][posicionInicial.y] = '|';
+    matrizLaberinto[posicionObjetivo.x][posicionObjetivo.y] = 'X';
+}
+
+// Dado una matriz de un laberinto, un array de obstaculos y la cantidad de los mismos la funcion coloca los obstaculos en la matriz
+void colocarObstaculos(char **matrizLaberinto, Casilla obstaculos[], int cantidadObstaculos) {
+    for (int i = 0; i < cantidadObstaculos; i++) {
+        int x = obstaculos[i].x;
+        int y = obstaculos[i].y;
+        matrizLaberinto[x][y] = '1';
+    }
+}
+
 // Dado un laberinto la funcion imprime la matriz del laberinto por consola
 void imprimirLaberinto(Laberinto *laberinto) {
     for (int i = 0; i < laberinto->dimension; i++) {
@@ -170,7 +161,7 @@ void imprimirLaberinto(Laberinto *laberinto) {
     }
 }
 
-// Dado un laberinto libera la memoria asignada dinamicamente
+// Dado un laberinto libera toda la memoria asignada dinamicamente
 void liberarLaberinto(Laberinto *laberinto) {
     for (int i = 0; i < laberinto->dimension; i++)
         free(laberinto->matrizLaberinto[i]);
