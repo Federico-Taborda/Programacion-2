@@ -31,7 +31,7 @@ void liberarLaberinto(Laberinto *laberinto);
 int main() {
     srand(time(NULL));
     Laberinto laberinto;
-    FILE *archivoEntrada = fopen("./entrada-C.txt", "r");
+    FILE *archivoEntrada = fopen("./EntradaLaberinto.txt", "r");
 
     inicializarLaberinto(&laberinto, archivoEntrada);
     inicializarMatriz(&laberinto);
