@@ -111,9 +111,9 @@ void inicializarMatriz(Laberinto *laberinto) {
     }
 }
 
-// Dado un entero n la funcion devolvera un numero aleatorio de 0 a n-1 
+// Dado un entero n la funcion devolvera un numero aleatorio entre 0 y n 
 int coordenadaAleatoria(int n) {
-    return rand() % n;
+    return 1 + rand() % n;
 }
 
 // Dado un laberinto la funcion crea obstaculos aleatorios dentro de las dimensiones del tablero en casillas no ocupadas
@@ -126,8 +126,8 @@ void crearObstaculosAleatorios(Laberinto *laberinto) {
         obstaculoAleatorio.x = coordenadaAleatoria(laberinto->dimension);
         obstaculoAleatorio.y = coordenadaAleatoria(laberinto->dimension);
 
-        // Si la casilla en las coordenadas (x,y) esta ocupada genera otro para de coordenadas hasta que no lo este
-        while(laberinto->matrizLaberinto[obstaculoAleatorio.x][obstaculoAleatorio.y] != '0') {
+        // Si la casilla en las coordenadas (x,y) esta ocupada genera otro par de coordenadas hasta encontrar una que no lo este
+        while(laberinto->matrizLaberinto[obstaculoAleatorio.x - 1][obstaculoAleatorio.y - 1] != '0') {
             obstaculoAleatorio.x = coordenadaAleatoria(laberinto->dimension);
             obstaculoAleatorio.y = coordenadaAleatoria(laberinto->dimension);
         }
@@ -138,8 +138,8 @@ void crearObstaculosAleatorios(Laberinto *laberinto) {
 
 // Dado una matriz de un laberinto, la posicion inicial y una posicion objetivo la funcion coloca ambas posiciones en la matriz
 void colocarPosiciones(char **matrizLaberinto, Casilla posicionInicial, Casilla posicionObjetivo) {
-    matrizLaberinto[posicionInicial.x][posicionInicial.y] = '|';
-    matrizLaberinto[posicionObjetivo.x][posicionObjetivo.y] = 'X';
+    matrizLaberinto[posicionInicial.y - 1][posicionInicial.x - 1] = '|';    
+    matrizLaberinto[posicionObjetivo.y - 1][posicionObjetivo.x - 1] = 'X';
 }
 
 // Dado una matriz de un laberinto, un array de obstaculos y la cantidad de los mismos la funcion coloca los obstaculos en la matriz
@@ -147,7 +147,7 @@ void colocarObstaculos(char **matrizLaberinto, Casilla obstaculos[], int cantida
     for (int i = 0; i < cantidadObstaculos; i++) {
         int x = obstaculos[i].x;
         int y = obstaculos[i].y;
-        matrizLaberinto[x][y] = '1';
+        matrizLaberinto[x - 1][y - 1] = '1';
     }
 }
 
