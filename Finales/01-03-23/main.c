@@ -20,12 +20,14 @@ typedef struct {
 } Tablero;
 
 int numeroAleatorio(int n, int m);
+int validarBarco(Tablero tablero, Barco barco);
+int barcosSuperpuestos(Barco barcoUno, Barco barcoDos);
 
 int main() {
     srand(time(NULL));
 
     int dimesionMaxima = 20;
-    int dimensionMinima = 20;
+    int dimensionMinima = 10;
     int cantidadBarcosGuardados = 0;
     char lineas[60];
     Barco barcos[50];
@@ -58,19 +60,29 @@ int main() {
 
     // Incializamos la cantidad de barcos aleatorios
     tablero.cantidadBarcosAleatorios = numeroAleatorio(tablero.filas / 3, tablero.columnas);
-    int barcosAleatorios = tablero.cantidadBarcosAleatorios;
+
+    // Inicializamos el tamaño del array de barcos aleatorio del tablero
+    tablero.barcos = malloc(sizeof(Barco) * tablero.cantidadBarcosAleatorios);
+    int indiceBarcosAleatorios = tablero.cantidadBarcosAleatorios - 1;
     
-    while (barcosAleatorios > 0) {
+    // Se crea la cantidad de barcos aleatorios y lo guardamos en el tablero
+    while (indiceBarcosAleatorios >= 0) {
         int i = numeroAleatorio(0, cantidadBarcosGuardados);
 
+        // Si el barco es valido lo agregamos al tablero
         if(validarBarco(tablero, barcos[i])) {
-            tablero.barcos[barcosAleatorios] = barcos[i];
-            barcosAleatorios--;
+            tablero.barcos[indiceBarcosAleatorios] = barcos[i];
+            indiceBarcosAleatorios--;
         }
+    }
+
+    for (int i = 0; i < tablero.cantidadBarcosAleatorios; i++) {
+        printf("x: %d y:%d direccion:%d largo:%d\n", tablero.barcos[i].x, tablero.barcos[i].y,  tablero.barcos[i].direccion, tablero.barcos[i].tamaño );
     }
     
 
-    
+    free(tablero.barcos);
+    fclose(archivo);
     return 0;
 }
 
@@ -78,23 +90,51 @@ void guardarDatos() {
     
 }
 
-void liberarMemoria() {
-
-}
-
 // Dado un tablero y un barco la funcion devuelve 1 si el barco es valido
 // para guardar en el tablero o 0 si no lo es
 int validarBarco(Tablero tablero, Barco barco) {
-    int coordenadaValida =  barco.x > 0 && barco.x < tablero.filas && barco.y > 0 && barco.y < tablero.columnas;
-    int longitudValida = barco.tamaño > 2 && barco.tamaño < 4;
+    int coordenadaValida =  barco.x >= 0 && barco.x < tablero.filas && barco.y >= 0 && barco.y < tablero.columnas;
+    int longitudValida = barco.tamaño >= 2 && barco.tamaño <= 4;
     int direccionValida = barco.direccion == 1 || barco.direccion == 0;
+    int noPisaOtroBarco = 0;
+
+    /* for (int i = 0; i < tablero.cantidadBarcosAleatorios; i++) {
+        noPisaOtroBarco += barcosSuperpuestos(barco, tablero.barcos[i]);
+    } */
     
+    return coordenadaValida && longitudValida && direccionValida; /* && noPisaOtroBarco; */
 }
 
 // Dados dos barcos la funcion devuelve 1 si es los barcos tienen coordenadas
 // superpuestas o 0 si no;
 int barcosSuperpuestos(Barco barcoUno, Barco barcoDos) {
+    int casillasSuperpuestas = 0;
+    int x1 = barcoUno.x;
+    int y1 = barcoUno.y;
+    int x2 = barcoDos.x;
+    int y2 = barcoDos.y;
 
+    for (int i = 0; i < barcoUno.tamaño; i++) {
+        for (int j = 0; j < barcoDos.tamaño; j++) {
+            if (x1 == x2 && y1 == y2) {
+                casillasSuperpuestas++;
+            }
+            
+            if(barcoDos.direccion) {
+                x2++;
+            }else{
+                y2++;
+            }
+        }
+
+        if(barcoUno.direccion) {
+            x1++;
+        }else{
+            y1++;
+        }
+    }
+    
+    return casillasSuperpuestas != 0; 
 }
 
 // Dado un numero entero positivo n la funcion devuelve un numero entre n y m
