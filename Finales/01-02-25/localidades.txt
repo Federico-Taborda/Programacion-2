@@ -1,0 +1,2133 @@
+HOSPITAL                                                
+ZAPOTE                                                  
+SAN FRANCISCO DE DOS RIOS                               
+URUCA                                                   
+MATA REDONDA                                            
+PAVAS                                                   
+HATILLO                                                 
+SAN SEBASTIAN                                           
+LA CAJA                                                 
+PASO ANCHO SUR                                          
+CARMEN                                                  
+BARRIO MEXICO                                           
+CATEDRAL                                                
+CORAZON DE JESUS                                        
+ARANJUEZ                                                
+PITAHAYA                                                
+CRISTO REY                                              
+OMAR DENGO                                              
+SAN BOSCO                                               
+GONZALEZ VIQUEZ                                         
+NACIONES UNIDAS                                         
+BARRIO LUJAN                                            
+PASO ANCHO NORTE                                        
+SAGRADA FAMILIA                                         
+RINCON GRANDE                                           
+MARIA REINA                                             
+VILLA ESPERANZA                                         
+ROSITER CARBALLO                           
+C.P. CRISTO REY                        
+LA CARPIO                                               
+CORDOBA                                                 
+SANTA MARTA                                             
+PEREGRINA                                               
+PERPETUO SOCORRO                                        
+HATILLO 8                                               
+COLONIA 15 DE SETIEMBRE                                 
+COLONIA KENNEDY                                         
+C.S.M CAPEMCOL                                          
+ESCAZU                                                   
+SAN ANTONIO                                              
+SAN RAFAEL                                               
+BEBEDERO O SAN FRANCISCO                                 
+GUACHIPELIN                               
+CARMEN 
+BELO HORIZONTE NORTE                                     
+H.A. MAGDALA                                             
+DESAMPARADOS                                       
+SAN MIGUEL                                         
+JERICO                                             
+HIGUITO                                            
+SAN JUAN DE DIOS                                   
+SAN RAFAEL ARRIBA                                  
+SAN RAFAEL ABAJO                                   
+SAN ANTONIO                                        
+FRAILES                                            
+BUSTAMANTE O ALCIRA                                
+PATARRA                                            
+SAN CRISTOBAL SUR                                  
+SAN CRISTOBAL NORTE                                
+ROSARIO                                            
+GUADARRAMA                                         
+LA JOYA                                            
+FATIMA DE DAMAS                                    
+CALLE FALLAS                                       
+GRAVILIAS                                          
+PACAYA                                             
+EL LLANO                                           
+MANZANO                             
+GUATUSO                                            
+TRINIDAD 
+CRISTO REY                                         
+LOS GUIDO                                          
+LAS LOMAS                                          
+SAN JERONIMO                                       
+VIOLETA                
+SAN LORENZO                                        
+VALENCIA                                           
+EL PORVENIR                                        
+LA CAPRI                                           
+C.P. VILMA CURLING RIVERA                          
+EMPALME ARRIBA GUARIA              
+H.A. OFELIA CARVAJAL DE NARANJO                    
+H.A. SAN CAYETANO                                  
+LLANO BONITO                                       
+CHIROGRES                                          
+H.A.C.G. MANANTIAL DE VIDA SAN RAF                 
+SANTIAGO                                               
+POZOS                                                  
+MERCEDES SUR                                           
+MERCEDES NORTE                                         
+BOCANA                                                 
+JILGUERAL                                              
+TUFARES                                                
+SALITRALES                                             
+ALTO LA PALMA                                          
+BARBACOAS                                
+PIEDADES                                               
+SAN JUAN                                               
+GRIFO ALTO                                             
+LLANO GRANDE                                           
+GRIFO BAJO                                             
+SAN RAFAEL ARRIBA                                      
+FLORALIA                                               
+CANDELARITA                                            
+DESAMPARADITOS                                         
+SAN ANTONIO                                            
+GUARUMAL                                               
+ZAPATON                                    
+PEDERNAL O SAN PEDRO                                   
+GAMALOTILLO                                            
+LOS ANGELES                                            
+LA GLORIA                                              
+MASTATAL                                               
+SANTA MARTA                                            
+CARIT                                                  
+CORTEZAL                                               
+CERBATANA                                              
+SAN MARTIN                                             
+CHARCON                                  
+SAN MIGUEL                                             
+BAJO BADILLA                                           
+VISTA DE MAR NORTE                                     
+BAJO REY                                               
+H.A. CORAZON DE JESUS                                  
+SANTA CECILIA                                          
+SAN MARCOS                                              
+SAN PEDRO                                               
+SAN MARTIN                                              
+SAN LORENZO                                             
+GUADALUPE                                               
+RODEO NORTE                                             
+SAN CARLOS                                              
+ESQUIPULAS                                              
+SAN JERONIMO                                            
+SAN MIGUEL O SALADO                                     
+ZAPOTAL                                                 
+NAPOLES                                                 
+QUEBRADA ARROYO                                         
+H.A. LOS SANTOS                                         
+ASERRI                                                   
+POAS                                                     
+SALITRILLOS                                              
+JOCOTAL ABAJO                                            
+TARBACA O PRAGA                                          
+VUELTA DE JORCO                                          
+MONTE REDONDO                                            
+SAN GABRIEL                                              
+LIMONAL                                                  
+LEGUA                                                    
+BAJO DE PARRITA                                          
+MONTERREY                                                
+LEGUA DE LOS NARANJOS                                    
+URUCA                                                    
+EL TIGRE                                                 
+CEDRAL                                                   
+TRANQUERILLAS                                            
+ALTO AGUACATE                                            
+LAGUNA                                 
+OJO DE AGUA
+SANTA TERESITA                                           
+H.A. SAN FRANCISCO DE ASIS                               
+COLON                                                      
+JARIS                                                      
+GUAYABO                                                    
+TABARCIA                                                   
+PIEDRAS BLANCAS                                            
+MORADO                                                     
+PIEDRAS NEGRAS                                             
+PICAGRES                                                   
+LLANO GRANDE                                               
+CORRALAR                                                   
+QUITIRRISI                                                 
+BAJO DE LOAIZA                                
+RODEO                                                      
+BRASIL                                                     
+SAN BOSCO                                                  
+SAN RAFAEL                                    
+CORROGRES 
+BAJO DE BUSTAMANTE O ANGELES                               
+SAN ISIDRO DE CHUCAS 
+BAJO DE JORCO 
+GUADALUPE                                            
+H.A. CARLOS MARIA ULLOA                              
+SAN FRANCISCO                                        
+CALLE BLANCOS Y SAN GABRIEL                          
+MATA DE PLATANO O CARMEN                             
+IPIS ABAJO                                           
+PURRAL                                               
+RANCHO REDONDO                                       
+VISTA DE MAR                                         
+LOS ANGELES                                          
+FACIO Y LA MORA                                      
+CUADROS                                              
+H.A. CORTEZA AMARILLA-EMMANUEL                       
+SANTA ANA                                             
+SALITRAL                                              
+POZOS                                                 
+MATINILLA                                             
+RIO ORO                                               
+PIEDADES                                              
+BRASIL                                                
+LA MINA                                               
+SAN RAFAEL                                            
+HONDURAS                                              
+LAGOS DE LINDORA                                      
+ALAJUELITA                                           
+SAN JOSECITO                                         
+SAN ANTONIO O EL LLANO                               
+CONCEPCION ABAJO                                     
+SAN FELIPE                                           
+LAMPARAS O CORAZON DE JESUS                          
+AURORA                                               
+CONCEPCION ARRIBA                                    
+TEJARCILLOS                      
+SAN ISIDRO                                  
+SAN RAFAEL                                  
+SAN PEDRO                                   
+JESUS O DULCE NOMBRE                        
+SAN ANTONIO                                 
+LAS NUBES                                   
+CASCAJAL                                    
+CORAZON DE JESUS                            
+SAN IGNACIO                                              
+TABLAZO                                                  
+CHIRRACA                                   
+AGUA BLANCA
+GUAITIL                                                  
+TOLEDO                                                   
+PALMICHAL                                                
+CANGREJAL                                                
+CEIBA ESTE                                               
+COYOLAR                                                  
+SABANILLAS                                               
+TERUEL                                                   
+BIJAGUAL                                                 
+LA CRUZ                                                  
+OCOCA                                                    
+SEVILLA 
+BAJO DE JORCO
+LLANO DE LA MESA                                         
+ZONCUANO                                                 
+LAS LIMAS                                                
+CASPIROLA                                                
+SAN LUIS                                                 
+ESCUADRA                                                 
+BAJO CACAO O CERDAS                                      
+URUCA                                                    
+VEGAS DEL PARRITA                                        
+LINDA VISTA                                              
+H.A. ACOSTA                                              
+SAN JUAN                                                  
+ANSELMO LLORENTE                                          
+COLIMA                                                    
+CINCO ESQUINAS                                            
+LEON XIII                                                 
+CUATRO REINAS                                             
+FLORIDA                                          
+SAN VICENTE                                             
+SAN JERONIMO                                            
+LA TRINIDAD
+PLATANARES                                              
+LOS SITIOS                                              
+H.A. CASA NAZARETH                                      
+LA ISLA                                                 
+SAN PEDRO                                         
+LOURDES                                           
+SABANILLA                                         
+BETANIA                                           
+SAN RAFAEL                                        
+CEDROS                                            
+H.A. MONTES DE OCA                                
+SAN PABLO                                            
+SAN PEDRO                                            
+SAN JUAN DE MATA                                     
+MONTELIMAR                            
+LAS DELICIAS                                         
+SAN GABRIEL                                          
+SAN LUIS                                             
+BIJAGUAL                                             
+SAN RAFAEL                                           
+SAN ANTONIO DE TULIN                                 
+SAN FRANCISCO                                        
+EL SUR                                               
+POTENCIANA ARRIBA                                    
+EL BARRO                                             
+SANTA MARIA                                                
+JARDIN                                                     
+COPEY                                                      
+PROVIDENCIA                                                
+LA CIMA                                                    
+TRINIDAD                                                   
+SUKIA O EL BRUJO                                           
+SAN GERARDO                                                
+CURRIDABAT                                           
+SANCHEZ                                              
+TIRRASES                                             
+LA LIA O INMACULADA                                  
+CIPRESES                                             
+GRANADILLA                                           
+JOSE MARIA ZELEDON                                   
+CIUDADELA QUINCE DE AGOSTO                           
+H.A. CURRIDABAT                                      
+SAN ISIDRO DE EL GENERAL                          
+LA PALMA                                          
+SANTA ROSA                                        
+LA ESPERANZA                                      
+GENERAL VIEJO                                     
+PALMARES                                          
+RIVAS                                             
+SAN PEDRO                                         
+CANDELARIA O ANGOSTURA                            
+PEDREGOSO                                         
+SAN RAMON SUR                                     
+PACUARITO                                         
+QUEBRADAS                                         
+SAN CRISTOBAL O TINAMASTE                         
+SAN JUAN DE DIOS O GUABO                          
+LA HERMOSA                                        
+BOLIVIA                                           
+SAN JUAN BOSCO                  
+LA REPUNTA                                        
+BUENA VISTA                                       
+PUEBLO NUEVO                                      
+CANAAN                                            
+SAN RAFAEL NORTE DE SAN ISIDRO                    
+LOS REYES                                         
+SAN RAFAEL DE PLATANARES                          
+CARMEN O CAJON                                    
+PLATANILLO                                        
+QUIZARRA                            
+SAN GABRIEL                                       
+SANTA TERESA                                      
+PEJIBAYE                                          
+SANTO TOMAS                                       
+PEÑAS BLANCAS                                     
+AGUILA ABAJO                                      
+SAN PABLO                                         
+ZAPOTE                                            
+DIVISION                            
+DESAMPARADOS                                      
+SAN MIGUEL                                        
+MESAS                                             
+SAVEGRE ABAJO                                     
+SANTA ELENA                                       
+SAN RAFAEL DE SAN PEDRO                           
+BRUJO                                             
+EL LLANO                                          
+VILLA BONITA                                      
+SANTA LUCIA                         
+SAN SALVADOR                                      
+SAN BLAS                          
+AGUAS BUENAS                                      
+SAN AGUSTIN                                       
+HERRADURA                                         
+TAMBOR                                            
+SAN JERONIMO                                      
+FATIMA                                            
+CONCEPCION                         
+SIERRA                                            
+SAN CARLOS                                        
+MERCEDES                                          
+SAN FRANCISCO                                     
+LA LINDA                                          
+LA UNION DE SAN PEDRO                             
+VISTA DE MAR NORTE                                
+CALLE MORAS                                       
+LOS ANGELES DE PARAMO                             
+SAN CAYETANO                           
+SAN JUAN DE MIRAMAR              
+CEIBO ARRIBA                                      
+CHINA KICHA                                       
+SAN ANTONIO                                       
+SIBERIA                             
+LA ESE                                            
+LAS JUNTAS DE PACUAR                              
+VILLA LIGIA                                       
+LOS CHILES                                        
+CHIMIROL                                          
+SAN MARTIN                            
+GUADALUPE                                         
+RIO GRANDE                                        
+LA PIEDRA DE RIVAS                                
+PAVONES                                           
+EL HOYON                                          
+SINAI                                             
+VALENCIA                                          
+MIRAVALLES                                        
+TRINIDAD                                          
+VERACRUZ                                          
+MOLLEJONES                                        
+SOCORRO                                           
+LOS ANGELES DE LIGIA                              
+VILLANUEVA DE PEDREGOSO                           
+SANTA EDUVIGIS                                    
+SAGRADA FAMILIA                                   
+ROSARIO O ARRONIS                                 
+MIRAFLORES                                        
+PALMITAL                                          
+SANTIAGO                                          
+ESPERANZA DE SAN PEDRO                            
+VILLA ARGENTINA                                   
+SAN RAMON NORTE                                   
+JARDIN                              
+BERLIN                                            
+BAJO ESPERANZA                                    
+PILAR                                             
+C.P. ANTONIO BASTIDA DE PAZ                       
+CRISTO REY                                        
+CALIFORNIA DE RIO NUEVO                           
+H.A. MONS.DELFIN QUESADA CASTRO                   
+PIEDRA ALTA                                       
+BONITA                                            
+CENIZA                                            
+COCORI                                            
+COOPERATIVA                                       
+INVU PEDRO PEREZ                                  
+MORAZAN                                           
+SAN ANDRES                                        
+TIERRA PROMETIDA                                  
+BAIDAMBU                                          
+LA AURORA                                         
+TIRRA                                             
+RIO QUEBRADAS ARRIBA                              
+DANIEL FLORES                                     
+SAN GERARDO                                       
+C.P. PABRU PRESBERI                               
+SAN PABLO                                    
+SAN ANDRES                                   
+LLANO BONITO           
+SAN ISIDRO                                   
+SANTA CRUZ                                   
+ANGOSTURA ABAJO                              
+SAN RAFAEL ABAJO           
+SANTA ROSA ABAJO ESTE                        
+CEDRAL PARTE NORTE                           
+SAN FRANCISCO                                
+TRINIDAD                                     
+SAN MARTIN                                   
+LA LUCHA                      
+SAN ANTONIO                                  
+HIGUERON                                     
+LA CUESTA O BAJO DE TARRAZU                  
+CARRIZALES                                   
+SANTA JUANA                                  
+ALAJUELA                                                
+CONCEPCION O EL LLANO                                   
+CANOAS                                                  
+SAN JOSE                                                
+EL COYOL                                                
+TUETAL SUR                                              
+CARRIZAL                                                
+UJARRAS                                                 
+SAN ANTONIO DEL TEJAR                                   
+EL ROBLE                                                
+GUACIMA                              
+EL COCO                                                 
+LAS VUELTAS                                             
+SAN ISIDRO                                              
+ITIQUIS                                                 
+DULCE NOMBRE DE LAGUNA                                  
+SABANILLA                                               
+SAN LUIS                                                
+LOS ANGELES                                             
+FRAIJANES                                               
+SAN RAFAEL ESTE                                         
+SAN RAFAEL OESTE                                        
+RIO SEGUNDO                           
+DESAMPARADOS                                            
+TURRUCARES                                              
+CINCO ESQUINAS                                          
+CEBADILLA                                               
+SAN MIGUEL O CERRILLOS                                  
+TAMBOR                                      
+CACAO                                                   
+TUETAL NORTE                                  
+ GARITA                                                 
+POASITO                                                 
+SAN MIGUEL DE SARAPIQUI                                 
+PAVAS                                      
+SAN MARTIN                                              
+SIQUIARES                                               
+CORAZON DE JESUS                                        
+EL CERRO                                                
+VILLA BONITA                               
+CIRUELAS                                                
+CACIQUE                                                 
+DULCE NOMBRE O LAS ANIMAS                               
+PUEBLO NUEVO                                            
+MONTECILLOS                              
+NUESTRO AMO                                             
+INVU LOS RODRIGUEZ                                      
+TACACORI                                                
+PACTO DEL JOCOTE                                        
+CERRILLAL                                               
+VILLA HELIA                             
+QUEBRADAS                                               
+ROSALES                                                 
+CALIFORNIA                                              
+LAS PILAS                                               
+C.P. REYNALDO VILLALOBOS Z.                             
+C.P. LUIS PAULINO MORA MORA                             
+C.P. AMBITOS A Y B                              
+C.P. AMBITO C                         
+C.P.  AMBITO D                       
+C.P. GERARDO RODRIGUEZ ECHEVERRIA                       
+C.P. ADULTO MAYOR                                       
+H.A. SANTIAGO CRESPO CALVO                              
+BARRIO CORAZON DE JESUS                                 
+EL ARROYO                                               
+EL CARMEN                                               
+RINCON CHIQUITO                                         
+C.P. ADULTO JOVEN                                       
+EL PARAISO                                              
+RINCON DE HERRERA                                       
+C.P. AMBITO E INDICIADOS PENSIONES                      
+C.P CENTRO NAC. DE ATENCION ESPEC.                      
+SAN RAMON                                             
+SANTIAGO                                              
+SAN JOSE                                 
+SAN JUAN                                              
+PIEDADES NORTE                                        
+LA PAZ                                                
+PIEDADES SUR                                          
+SALVADOR                                              
+SAN FRANCISCO                                         
+SAN MIGUEL                                            
+BUREAL                                                
+SAN RAFAEL                                            
+BERLIN                                                
+CALLE ZAMORA                                          
+LLANO DE BRENES                                       
+SAN ISIDRO                                            
+LOS ANGELES SUR                                       
+BAJO CORDOBA                                          
+SAN PEDRO                                             
+VOLIO                                                 
+ALTO VILLEGAS                                         
+CONCEPCION                                            
+SAN ANTONIO DE ZAPOTAL                                
+SAN ISIDRO DE PEÑAS BLANCAS                           
+CARRERA BUENA                                         
+BOLIVAR                                  
+LA ESPERANZA                                          
+CHACHAGUA                                             
+BAJO DE LOS RODRIGUEZ                                 
+COLONIA TRINIDAD                                      
+LOS CRIQUES                                           
+BAJO LA PAZ                                           
+GUARIA                                   
+SECTOR LOS ANGELES                                    
+CATARATA                                              
+VALLE AZUL                                            
+BAJO ZUÑIGA                                           
+SOCORRO                                               
+LA GUARIA                                             
+ANGOSTURA                                             
+EL CASTILLO                                           
+ZAPOTAL PARTE ESTE                                    
+H.A. SAN RAMON                                        
+CIUDADELA JARDINES                                    
+CALLE LEON                                            
+EMPALME                                               
+SAN MARTIN                                
+BARRIO BELEN                                          
+LA BALSA                                              
+GRECIA                                                   
+MESON O DULCE NOMBRE                                     
+SAN FRANCISCO                                            
+SAN JOSE Y SANTA GERTRUDIS NORTE                         
+SANTA GERTRUDIS SUR                                      
+SAN ROQUE                                                
+TACARES                                                  
+RINCON DE ARIAS                                          
+LA ARENA                                  
+CALLE RODRIGUEZ                                          
+CATALUÑA                                                 
+PUENTE DE PIEDRA                                         
+RINCON DE SALAS                                          
+LOS ANGELES DE BOLIVAR                                   
+SAN JUAN                                                 
+SAN LUIS                                                 
+SAN MIGUEL                                               
+LOS LOTES                                 
+BODEGAS                                                  
+ALTOS DE PERALTA                                         
+BARRIO LATINO                               
+CAJON                                 
+CARBONAL                                  
+CALLE SAN JOSE                                           
+SAN MIGUEL ARRIBA                                        
+CALLE ACHIOTE                                            
+SAN ISIDRO                                               
+CEDRO                                                    
+PORO                                                     
+LEON CORTES CASTRO                                       
+BAJO ROSALES                                             
+CAJON ARRIBA                                             
+H.A. JAFETH JIMENEZ MORALES                              
+LA ARGENTINA                                             
+SAN MATEO                                             
+HIGUITO                                               
+MADERAL                                               
+DULCE NOMBRE                                          
+DESMONTE                                              
+JESUS MARIA                                           
+LABRADOR                                              
+ESTANQUILLOS O SAN ANTONIO                    
+ATENAS                                                   
+LOS ANGELES                                              
+JESUS                                                    
+SABANA LARGA                                             
+ESCOBAL                                                  
+MERCEDES                                                 
+GUACIMO                                                  
+SAN ISIDRO                                               
+RINCON DE SAN ISIDRO                                     
+CONCEPCION                                               
+BALSA                                                    
+SAN JOSE SUR                                             
+SANTA EULALIA                                            
+MORAZAN                                                  
+H.A. HORTENSIA RODRIGUEZ S.DE B                          
+ESTANQUILLO                     
+NARANJO                                                 
+CANDELARIA                              
+SAN ANTONIO DE LA CUEVA                                 
+SAN JUAN                              
+SAN MIGUEL                                              
+PALMITOS                                                
+CONCEPCION ESTE                                         
+ROSARIO                                      
+SAN JOSE                               
+BARRANCA                                                
+SAN ANTONIO DE BARRANCA                                 
+CIRRI SUR                                               
+LLANO BONITO O CIRRI NORTE                              
+SAN ROQUE                                               
+CAÑUELA ARRIBA                                          
+SAN JERONIMO                                            
+LOS ROBLES                                              
+SAN FRANCISCO                            
+COMUN O SAN RAFAEL                                      
+LOURDES                                                 
+DULCE NOMBRE                                  
+H.A. JOSE DEL OLMO                                      
+SANTA MARGARITA                                         
+PALMARES                                               
+ZARAGOZA                                               
+RINCON DE ZARAGOZA                                     
+BUENOS AIRES                                           
+LA GRANJA                                              
+SANTIAGO                                               
+CANDELARIA                                             
+ESQUIPULAS                                             
+H.A. PALMARES                                          
+COCALECA                               
+CALLE VARGAS                                           
+SAN PEDRO                                                  
+SAN JUAN SUR                                               
+SAN RAFAEL                                                 
+CARRILLOS BAJO                                             
+SABANA REDONDA                                             
+SANTA ROSA                                                 
+CHILAMATE                                                  
+SAN JUAN NORTE                                             
+CARRILLOS ALTO                                             
+GUATUZA                                                    
+OROTINA                                                 
+EL MASTATE                                              
+HACIENDA VIEJA                                          
+COYOLAR                                                 
+CASCAJAL                                                
+NUEVA SANTA RITA                                        
+CUATRO ESQUINAS NORTE                                   
+LA CEIBA                                                
+SAN JERONIMO                                            
+PARCELAS TRINIDAD                             
+H.A. PRESBITERO JESUS MARIA VARGAS                      
+QUESADA                                              
+DULCE NOMBRE                                         
+SUCRE                                                
+FLORENCIA                                            
+QUEBRADA AZUL                                        
+MUELLE DE SAN CARLOS                                 
+SANTA CLARA                                          
+LA VEGA O CUATRO ESQUINAS                            
+BUENAVISTA                                           
+AGUAS ZARCAS                                         
+LOS CHILES                                           
+LA TIGRA                                             
+LA PALMERA                                           
+PITAL                                                
+LA UNION ESTE                                        
+VENECIA                                              
+SAN VICENTE                                          
+PORVENIR                                             
+BOCA DE ARENAL                                       
+LA FORTUNA                                           
+EL TANQUE                                            
+GUARIA DE FORTUNA                                    
+PLATANAR                                             
+SAN JUAN DE QUEBRADA DE PALO                         
+VERACRUZ                                             
+SANTO DOMINGO                                        
+SAN FRANCISCO O VACA BLANCA                          
+LOS LLANOS O ALTAMIRITA                              
+LA VIEJA                                             
+SAN RAFAEL DE PLATANAR                               
+SAN PEDRO Y TABLA GRANDE                             
+AGUA AZUL                                            
+LOS ANGELES                                          
+VENADO                                               
+JICARITO                                             
+BUENOS AIRES                                         
+MONTELIMAR                                           
+SAN JOSECITO DE CUTRIS                               
+SAN GERARDO DE POCOSOL                               
+SAN JOAQUIN                                          
+CORAZON DE JESUS                                     
+LA UNION                                             
+SAHINO O SAN JORGE                                   
+LA LEGUA                                             
+SAN GERARDO                                          
+LA MARINA                                            
+CEDRAL                                               
+CHAMBACU DE MONTERREY                                
+SAN RAMON                            
+SAN JOSE DE LA TIGRA                                 
+SAN PEDRO DE LA TIGRA                                
+SAN MIGUEL O LIMBO                                   
+EL CONCHO                                            
+SAN ROQUE                                            
+SANTA ROSA DE POCOSOL                                
+BELLA VISTA                                          
+LAS BRISAS                                           
+SANTA RITA                                           
+BOCA TAPADA                                          
+COOPEVEGA                                            
+PITALITO                                             
+LOS ANGELES DE PITAL                                 
+ESTERITO                                             
+SANTA MARIA                                          
+SAN DIEGO                                            
+MORAVIA                                              
+CARRIZAL                                             
+SAN JUAN DE LA CEIBA                                 
+EL PLOMO                                             
+SAN MARCOS NORTE                                     
+MARSELLA                                             
+ACAPULCO                                             
+SAN FRANCISCO O LA AQUILEA                           
+LINDA VISTA                                          
+LA GLORIA O SAN MARCOS                               
+GUARIA DE POCOSOL                                    
+SONAFLUCA                                            
+SANTA FE O LA FAMA                                   
+SAN JORGE DE CUTRIS                                  
+DELICIAS                                             
+SAN BOSCO                                            
+ALMENDROS                                            
+BUENOS AIRES DE VENECIA                              
+SAN MARTIN                                           
+CERRO CORTES                                         
+PALMAR                                               
+SAN CRISTOBAL                                        
+C.P. NELSON MANDELA                                  
+H.A. SAN VICENTE DE PAUL                             
+ABUNDANCIA                                           
+SAN JOSE DE LA MONTAÑA                               
+SAN PABLO                                            
+CONCEPCION                                           
+EL CORTE                               
+CARMEN                                               
+TRES Y TRES                                          
+SANTA ELENA                                          
+CORAZON DE JESUS DE LA TESALIA                       
+ZARCERO                                                 
+LAGUNA                                                  
+TAPESCO                                                 
+SANTA ROSA                                              
+GUADALUPE                                               
+SAN LUIS O MORELOS                                      
+PALMIRA                                                 
+ZAPOTE                                                  
+PUEBLO NUEVO DE LA PICADA                               
+SAN JUAN DE LAJAS                                       
+LEGUA                                                   
+H.A. SAN RAFAEL                                         
+ANATERI                                                 
+SARCHI NORTE                                      
+SARCHI SUR                                        
+SAN PEDRO                                         
+BAJOS DEL TORO                                    
+SAN JUAN                                          
+LOS ANGELES                                       
+SAN JOSE DE TROJAS                                
+LA LUISA                                          
+SABANILLA                                         
+UPALA                                                     
+SAN ISIDRO DE ZAPOTE                                      
+COLONIA PUNTARENAS                                        
+CANALETE                                                  
+SAN ISIDRO DE AGUAS CLARAS                                
+COLONIA LIBERTAD                                          
+CUATRO BOCAS                                              
+SAN JOSE O PIZOTE                                         
+BIJAGUA                                                   
+SANTO DOMINGO                                             
+DELICIAS                                                  
+SANTA CLARA                             
+DOS RIOS O COLONIA MAYORGA                                
+BRASILIA                                                  
+PATA DE GALLO                             
+GUAYABAL O EL CARMEN                                      
+SAN LUIS                                                  
+SAN JORGE O RIO NEGRO                                     
+SAN RAMON                                                 
+AGUAS CLARAS                                              
+BUENOS AIRES                                              
+BIRMANIA                                                  
+LAS BRISAS                                    
+SANTA ROSA                       
+VILLANUEVA                                                
+PORVENIR                                                  
+NAZARETH                                                  
+MORENO CAÑAS                                              
+COLONIA BLANCA                                            
+LLANO AZUL                                                
+SAN RAFAEL O CHIMURRIA ABAJO                              
+CARTAGOS SUR                                              
+QUEBRADON                                                 
+LAS ARMENIAS                                              
+CARTAGOS NORTE                                            
+AMERICA                                                   
+BETANIA                                                   
+PROGRESO                                                  
+EL SALTO                                                  
+LAS FLORES                                                
+RIO NEGRO                                                 
+HIGUERON                                 
+LOS CHILES                                           
+ARCO IRIS                                            
+CAÑO NEGRO                                           
+SAN JOSE DEL AMPARO                                  
+PORVENIR DE SAN JORGE                                
+MEDIO QUESO                                          
+VERACRUZ                                             
+CUATRO ESQUINAS                                      
+SANTA ELENA DE ISLA CHICA                            
+COQUITAL                                             
+MONTEALEGRE                                          
+VASCONIA                                             
+LOS LIRIOS                                           
+SAN JORGE                                            
+PAVON                                                
+EL PARQUE                                            
+COBANO                                               
+CRISTO REY                                           
+LA URRACA                                            
+LA UNION                                             
+LAS NUBES                                            
+SAN RAFAEL                                              
+PATASTILLO                                              
+MARGARITA                                               
+BUENAVISTA                                              
+CABANGA DE COTE                       
+PATASTE                                                 
+MAQUENCAL O PALMITAL                                    
+TONJIBE                                                 
+SANTA FE                                                
+TIALES                                                  
+KATIRA                                                  
+RIO CELESTE                                             
+MONICO                                                  
+EL VALLE                                                
+LA GARITA                                               
+SILENCIO                                                
+COLONIA AGRICOLA DEL TORO                            
+RIO CUARTO                                           
+SAN RAFAEL DE RIO CUARTO                 
+LA TABLA                                             
+LOS ANGELES                                          
+SANTA RITA                                           
+SANTA ISABEL                                         
+LA VICTORIA                             
+SAN VICENTE                                          
+LA ESPAÑOLITA                                        
+PATA DE GALLO                  
+OCCIDENTAL                                               
+ORIENTAL                                                 
+EL CARMEN                                                
+SAN NICOLAS                                              
+SAN FRANCISCO                                            
+LOURDES                                                  
+GUADALUPE O ARENILLA                                     
+QUEBRADILLA                                              
+BERMEJO                                                  
+COPALCHI                                                 
+CORRALILLO                                               
+SAN JUAN NORTE                                           
+SAN JUAN SUR                                             
+SANTA ELENA ARRIBA                                       
+LLANO DE LOS ANGELES                                     
+SAN ANTONIO                                              
+TIERRA BLANCA                                            
+DULCE NOMBRE                                             
+NAVARRO                                                  
+LLANO GRANDE                                             
+SAN ISIDRO O EL ALUMBRE                                  
+RIO CONEJO                                               
+ALTO DE OCHOMOGO                                         
+LA LIMA                                                  
+QUIRCOT                                                  
+AZAHAR                                        
+PITAHAYA                                                 
+CABALLO BLANCO                           
+SAN BLAS                                                 
+POLVORA O LOYOLA                                         
+MANUEL DE JESUS JIMENEZ                                  
+H.A. ASILO DE LA VEJEZ                                   
+LOMA LARGA                                               
+GUAYABAL                                     
+PARAISO                                                  
+BIRRISITO                                                
+SANTIAGO                                                 
+EL YAS                                                   
+OROSI                                                    
+RIO MACHO                                                
+PALOMO                                                   
+PURISIL                                                  
+CACHI                                                    
+URASCA                                                   
+LA FLOR                                                  
+LA LOAIZA                                                
+UJARRAS                                                  
+AJENJAL                                                  
+ALTO DE ARAYA                                            
+SAN JERONIMO O GUATUSO                                   
+SAN MIGUEL O HAMACA                        
+LAPUENTE                                                 
+LLANOS DE SANTA LUCIA                                    
+RIO REGADO                                               
+ALEGRIA                                                  
+TRES RIOS                                               
+SAN DIEGO                                               
+RIO AZUL                                                
+SAN JUAN                                                
+SAN RAFAEL                                              
+CONCEPCION                                              
+DULCE NOMBRE                                            
+SAN RAMON                                               
+SANTIAGO DEL MONTE                                      
+QUEBRADA DEL FIERRO                                     
+SALITRILLO                                              
+RINCON MESEN ESTE                                       
+SAN VICENTE                                             
+EL CARMEN                                               
+VILLAS DE AYARCO                                        
+YERBABUENA                                              
+LINDA VISTA                                             
+SAN FRANCISCO                                           
+LA CIMA                                                 
+JUAN VIÑAS                                               
+ALTO VICTORIA                                            
+SANTA MARTA                                              
+EL NARANJO                                               
+TUCURRIQUE                                               
+PEJIBAYE                                                 
+SABANILLA                                                
+ORIENTE                                                  
+SAN MARTIN                                               
+HUMO                                                     
+LAS VUELTAS                                              
+LOS ALPES                                                
+TURRIALBA                                              
+EL PORO                                                
+AQUIARES O LA ISLA                                     
+SAN JUAN NORTE                                         
+SAN JUAN SUR                                           
+LAS AMERICAS                                           
+FLORENCIA                                              
+EL MORA                                                
+SANTA ROSA                                             
+COLORADO                                               
+TUIS                                                   
+PACAYITAS                                              
+LA SUIZA                                               
+SAN JOAQUIN                          
+ATIRRO                                                 
+GRANO DE ORO O XARA                                    
+PLATANILLO                                             
+PERALTA                                                
+LA FLOR DE TRES EQUIS                                  
+BONILLA ARRIBA                                         
+PAVONES                                                
+SITIO DE MATA                                          
+CHITARIA                                               
+SANTA CRUZ                                             
+LA PASTORA                                             
+SAN MARTIN                                             
+SAN ANTONIO                                            
+EL TORITO                                 
+SANTA TERESITA                                 
+COLONIA GUAYABO                                        
+TRES EQUIS                                             
+MOLLEJONES                                             
+ESMERALDA                                              
+RECREO                                                 
+CIMARRONES                                             
+PALOMO                                                 
+ESLABON                                                
+CIEN MANZANAS                                          
+BAJO PACUARE O SUR                                     
+VERBENA NORTE                                          
+SAN RAMON                                              
+JABILLOS                                               
+CALLE VARGAS                                           
+ALTO VARAL                                             
+NOCHEBUENA                                             
+CARMEN                                                 
+SAN VICENTE                                            
+FUENTE                                                 
+EL CARMEN                                              
+SAUCE                                                  
+JICOTEA                                                
+SAN RAFAEL                                             
+SIMIRIÑAC                                      
+ALTO PACUARE ARRIBA                           
+JAKI                   
+BOLORI ÑAC                              
+NIMARI-ÑAC                                 
+NAMALDI                                                
+TSIPIRI                           
+AZUL                                                   
+EL SILENCIO                                            
+GUAYABO ABAJO                                          
+CARMEN LYRA                                            
+H.A. SAN BUENAVENTURA                                  
+MARGOT                                                 
+CANADA                                                 
+LAS VIRTUDES                                           
+LAS NUBES                                              
+QUETZAL                                                
+PACUARE                                                
+JAMO                       
+ALTO PACUARE ABAJO                            
+JACBATA                                 
+PACAYAS                                                 
+IRAZU SUR                                               
+CERVANTES                                               
+CAPELLADES                                              
+BUENA VISTA                                             
+LLANO GRANDE                                            
+SAN RAFAEL DE IRAZU                                     
+SANTA TERESA                                            
+LOURDES                                     
+SAN RAFAEL                                              
+COT                                                     
+PASO ANCHO                                              
+POTRERO CERRADO                                         
+SAN JUAN DE CHICUA                                      
+CIPRESES                                                
+SANTA ROSA                                              
+SAN PABLO                                               
+SAN GERARDO NORTE DEL IRAZU                             
+SAN GERARDO SUR DE PASQUI                               
+ALTO CERRILLOS                      
+BOSQUE                                                  
+EL TEJAR                                               
+SAN ISIDRO                                             
+PALMITAL                                               
+LA ESTRELLA                                            
+TOBOSI                                                 
+BARRIO NUEVO                                           
+TABLON                                                 
+PATIO DE AGUA                                          
+CAÑON                                
+PURIRES                                
+CARAGRAL                                               
+LA CANGREJA                                            
+VARA DE ROBLE                                          
+ASUNCION                                   
+SABANA GRANDE                                          
+C.P. JORGE DEBRAVO                                     
+HEREDIA                                                  
+MERCEDES NORTE                                           
+MERCEDES SUR                                             
+SAN FRANCISCO                                            
+BARREAL                                      
+VARABLANCA                                               
+LOS LAGOS                                                
+BERNARDO BENAVIDES                               
+LA AURORA                                    
+LAGUNILLA                                                
+SAN RAFAEL DE VARABLANCA                                 
+GUARARI                                                  
+BARVA                                                      
+SAN PEDRO                                                  
+SAN JOSE DE LA MONTAÑA                                     
+SAN PABLO                                                  
+SAN ROQUE                                                  
+SANTA LUCIA                                                
+SACRAMENTO                                                 
+PASO LLANO O PORROSATI                                     
+BUENAVISTA                                
+PUENTE DE SALAS                                            
+SAN MIGUEL                                                 
+H.A. REINA DE LOS ANGELES                                  
+SANTO DOMINGO                                      
+SAN VICENTE                                        
+SAN MIGUEL                                         
+LOS ANGELES                                        
+SAN LUIS                                           
+PARACITO                                           
+SANTO TOMAS                                        
+SANTA ROSA                                         
+SOCORRO                                            
+CASTILLA                        
+SANTA BARBARA                                      
+SAN PEDRO                                          
+SAN JUAN ABAJO                                     
+JESUS                                              
+BIRRI                                              
+SANTO DOMINGO DEL ROBLE                            
+SETILLAL                                           
+CHAGUITE                                           
+LOS CARTAGOS                                       
+SAN BOSCO                                          
+SAN RAFAEL                                            
+SAN JOSECITO                                          
+SANTIAGO                                              
+LOS ANGELES                                           
+CONCEPCION                                            
+GETSEMANI                             
+MONTECITO                                             
+LA SUIZA                                              
+SAN MIGUEL O PALMAR                         
+SAN ISIDRO                                            
+SAN FRANCISCO                                         
+SAN JOSECITO                                          
+CONCEPCION                                            
+SANTA ELENA                                           
+SANTA CECILIA                                
+C.P. SAN ISIDRO JUVENIL ZURQUI                        
+H.A. SEÑORA DE LOS ANGELES                            
+SAN ANTONIO                                                
+LA RIBERA                                                  
+LA ASUNCION                                                
+SAN JOAQUIN                                               
+SAN LORENZO                                               
+LLORENTE                                                  
+SAN PABLO                                              
+RINCON DE RICARDO                                      
+MIRAFLORES                                             
+H.A.ALFRED Y DELIA GONZALEZ FLORES                     
+PUERTO VIEJO                                           
+SAN JOSE DE RIO SARAPIQUI                              
+LA VIRGEN                                              
+PANGOLA O SAN JUAN                                     
+ LLANO GRANDE                                          
+SAN RAMON                                              
+LOS ANGELES DE COLONIA CARVAJAL                        
+LA CEIBA                                               
+LAS HORQUETAS                                          
+RIO FRIO                                               
+EL TIGRE SUR                                           
+PUEBLO NUEVO                                           
+CHILAMATE ESTE ALTOS                                   
+SAN JULIAN                                             
+LA RAMBLA                                              
+FINCA DIEZ                                             
+LOS ARBOLITOS                            
+FINCA DOS                                              
+COLONIA CUBUJUQUI                                      
+CERRO NEGRO                               
+ZAPOTE                                                 
+COLONIA SAN JOSE                                       
+COLONIA VICTORIA                                       
+EL PALMAR                                              
+LAS MARIAS                                             
+GOLFITO                                                
+COLONIA VILLALOBOS                                     
+SAN BERNARDINO                                         
+ESTERO GRANDE                                          
+LA  CHAVES                                             
+EL ROBLE                                               
+TIRIMBINA                                              
+LA CONQUISTA                                           
+GUARIA                                                 
+FINCA CINCO                             
+HUETARES                                               
+LA ALDEA                                               
+ANGELES DE RIO SARAPIQUI                               
+EL MORTERO                                             
+COLONIA LA GATA                                        
+NARANJAL                                               
+SANTA DELIA                                            
+FINCA AGUA                                             
+RANCHO CHILAMATE                                       
+H.A. SAN AGUSTIN                                       
+LIBERIA                                               
+GUARDIA                                               
+CAÑAS DULCES                                          
+QUEBRADA GRANDE O GARCIA FLAMENCO                     
+CURUBANDE                                             
+BUENAVISTA DE CAÑAS DULCES                            
+IRIGARAY                                              
+LAS LILAS                                             
+CERECEDA                                  
+SALTO OESTE                                           
+C.P. CALLE REAL                 
+H.A. LIBERIA                                          
+BARRIO LA CRUZ                                        
+CORAZON DE JESUS                                      
+LA VICTORIA                                           
+SAN ROQUE                                             
+SANTA MARIA                                           
+EL GALLO                                              
+RODEITO                                               
+MORACIA                                               
+C.P. CALLE REAL                      
+CAPULIN                                               
+C.P. CALLE REAL                        
+NICOYA                                                 
+QUIRIMAN                                               
+SABANA GRANDE                                          
+JUAN DIAZ                                              
+SAN MARTIN                                             
+SAN JOAQUIN                                            
+DULCE NOMBRE                                
+CAIMITAL                                               
+SAN FERNANDO                                           
+MAQUENCO                                               
+LA MANSION                                             
+MATINA                                                 
+CABALLITO                                              
+LA VIGIA                                               
+COPAL                                                  
+SANTA ELENA                            
+QUEBRADA HONDA                                         
+PUEBLO VIEJO                                           
+SANTA ANA                                              
+CERRO NEGRO                                            
+LA ESPERANZA NORTE O DE JUAN DIAZ                      
+NARANJAL                                               
+LA VIRGINIA DE GAMALOTAL                               
+EL JOBO NORTE                                          
+SAN ANTONIO                                            
+CORRALILLO                                             
+PUERTO HUMO                                            
+SAN LAZARO                                             
+SAN VICENTE ABAJO                                      
+ZAPOTE                                                 
+POZO DE AGUA                                           
+BOCAS DE NOSARA                                        
+EL ROBLAR                                              
+EL CAÑAL                                               
+NAMBI                                                  
+CUAJINIQUIL                                            
+FLORIDA                                                
+MORACIA                                                
+RIO MONTAÑA                                            
+TERCIOPELO                                             
+TALOLINGA                                              
+CURIME                                                 
+BELEN DE NOSARITA                                      
+CUESTA GRANDE                                          
+MONTE GALAN                                            
+EL ROSARIO                                             
+GARZA                                                  
+IGUANITA                                               
+SAMARA                                                 
+BARCO QUEBRADO                                         
+BARRAHONDA O NACAOME                                   
+SILENCIO                                               
+PILAS BLANCAS                                          
+CONCEPCION DE PLATANILLO                               
+SANTO DOMINGO                                          
+SAN JUAN                                 
+LOMA BONITA O LAS CASITAS                              
+GAMALOTAL                                              
+JUNTAS                                                 
+LA ESPERANZA SUR                                       
+DELICIAS DE GARZA                                      
+EL FLOR                                      
+MATAMBUGUITO                                           
+CASITAS                                                
+GARCIMUÑOZ                                             
+ACOYAPA                                                
+H.A. SAN BLAS                                          
+MONTAÑITA                                              
+RIO GRANDE                                             
+SANTA CRUZ                                         
+ARADO                                              
+LAGUNILLA                                          
+SAN JUAN                                           
+BERNABELA                                          
+CACAO                                              
+BOLSON                                             
+SANTA BARBARA                                      
+PARAISO O RIO SEQUITO                              
+VEINTISIETE DE ABRIL                               
+RIO SECO                                           
+MARBELLA                                           
+VILLARREAL                                         
+SANTA ROSA                                         
+SAN FRANCISCO                                      
+SAN JOSE DE PINILLA                                
+HATILLO                                            
+TEMPATE                                            
+CARTAGENA                                          
+PORTEGOLPE                                         
+HUACAS                                             
+MATAPALO                                           
+FLORIDA                                            
+DIRIA O RIO GRANDE                                 
+SAN JUANILLO                                       
+VISTAMAR                                
+POTRERO                                            
+OSTIONAL                                           
+SAN JOSE DE LA MONTAÑA                             
+EL SOCORRO                                         
+PALMARES                                           
+LORENA                                             
+RIO TABACO ARRIBA                                  
+JAZMINAL                                           
+BRASILITO                                          
+DELICIAS                                           
+GARITA NUEVA                                       
+LIMON                                              
+EL LLANO                              
+ORTEGA                                             
+TALOLINGUITA                                       
+SAN PEDRO                                          
+GUAITIL                                            
+H.A. NUESTRA SEÑORA DEL ROSARIO                    
+CHIRCO                                             
+BAGACES                                               
+MONTANO                                               
+BEBEDERO                           
+RIO NARANJO                                           
+CUIPILAPA                                             
+LA FORTUNA                                            
+GUAYABO                                               
+SALITRAL                                              
+SAN BERNARDO                                          
+MONTENEGRO                                            
+PUEBLO NUEVO                                          
+PIJIJE                                                
+RIO CHIQUITO                                          
+SAN ISIDRO DE LIMONAL                                 
+BAGATZI                                               
+LLANOS DE CORTES                                      
+AGUA CALIENTE                                         
+FILADELFIA                                           
+PALMIRA                                              
+COMUNIDAD                                            
+SARDINAL                                             
+SAN BLAS                                             
+ARTOLA                                               
+BELEN                                                
+SANTA ANA                                            
+SANTO DOMINGO                                        
+LOS PLANES                                           
+EL COCO                                              
+RIO CAÑAS NUEVO                                      
+LA GUINEA                                            
+CORRALILLO                                           
+PANAMA O CACIQUE                                     
+CASTILLA DE ORO                                      
+COYOLITO                                             
+NUEVO COLON                                          
+SANTA RITA                                           
+LIBERTAD                                    
+PASO TEMPISQUE                      
+ALTOS DEL ROBLE                                      
+CAÑAS                                                   
+HIGUERON ABAJO                                          
+PALMIRA                                                 
+BEBEDERO                                  
+POROZAL                                                 
+NUEVA GUATEMALA                                         
+SAN MIGUEL O CUATRO ESQUINAS                            
+NISPERO                             
+BUENOS AIRES LA GOTERA                     
+HOTEL                                                   
+SANDILLAL                                               
+EL VERGEL                                               
+SAN JUAN                                                
+JABILLA ABAJO                                           
+SAN MARTIN                                              
+LAS PALMAS                                              
+H.A MARY BLANCO                                         
+URB. LAS CAÑAS                                          
+LAS JUNTAS                                          
+SANTA LUCIA                                         
+LA SIERRA                               
+ALTO CEBADILLA                                      
+LA PALMA                                            
+EL DOS DE ABANGARES                  
+SAN JUAN GRANDE                                     
+POZO AZUL                                           
+COLORADO                                            
+SAN BUENAVENTURA                                    
+SAN JOAQUIN                                         
+MONTE POTRERO O PUEBLO NUEVO                        
+CAMPOS DE ORO DE ABANGARES                          
+SAN RAFAEL                            
+LOS ANGELES                               
+HIGUERILLAS                                         
+MATAPALO                                            
+BARRIO JESUS                                        
+RANCHO ANIA O LOURDES                       
+CAÑITAS                                             
+COYOLITO DE ABANGARES O LA PEÑA                     
+TORNOS                                              
+H.A. SAN JORGE                                      
+RAIZAL                                              
+LA CONCHA                              
+PEÑAS BLANCAS                                       
+TILARAN                                               
+QUEBRADA GRANDE                                       
+SAN RAMON                                             
+CABECERAS DE CAÑAS                                    
+TRONADORA                                             
+AGUACATE                                 
+LOS ANGELES                             
+PARCE. QUEBRADA AZUL                   
+LIBANO                                                
+SAN JOSE                                              
+TIERRAS MORENAS                                       
+FLORIDA                                      
+SAN MIGUEL                                            
+ARENAL NUEVO                                          
+SOLANIA                                               
+LAS NUBES DE RIO CHIQUITO                             
+RIO CHIQUITO                                          
+LA UNION                                              
+RIO PIEDRAS                         
+VIEJO ARENAL                                          
+SILENCIO                                              
+SAN LUIS                                              
+H.A. TILARAN                                          
+CARMONA                                             
+SANTA RITA                                          
+SAN ANTONIO DE ZAPOTAL                              
+SAN PABLO                                           
+BELLAVISTA                                          
+BEJUCO                                              
+QUEBRADA SECA O PILAS DE BEJUCO                     
+SAN PEDRO                                           
+EL CARMEN                                           
+CERRO AZUL                                          
+LOS ANGELES                                         
+COROZALITO                                          
+SAN FRANCISCO DE COYOTE                             
+JABILLOS                                            
+TACANIS                                             
+SAN RAMON                                           
+PAVONES                                             
+QUEBRADA NANDO                                      
+QUEBRADA GRANDE                                     
+ZAPOTE O MORAVIA                                    
+COLONIA DEL VALLE                                   
+CACAO                                               
+RIO DE ORO                                          
+JABILLA                                             
+H.A. SAGRADO CORAZON DE JESUS                       
+LA CRUZ                                               
+COPALCHI                                              
+TEMPATAL                                              
+SANTA CECILIA                                         
+LA GARITA                                             
+CUAJINIQUIL DE SANTA ELENA                            
+ARMENIA                                               
+GUAPINOL                                              
+LAS BRISAS                                            
+LA VIRGEN                                             
+EL PORVENIR                         
+JOBO                           
+LOS ANDES                                             
+LAS VUELTAS                                           
+CAOBA                                                 
+BELICE                                                
+PALMARES                                              
+HOJANCHA                                             
+LA MARAVILLA                                         
+PILANGOSTA                                           
+LAJAS                                                
+BETANIA O JOBO                                       
+CUESTA ROJA                                          
+MONTE ROMO                                           
+ARBOLITOS                              
+MATAMBU                                              
+PITA RAYADA                                          
+HUACAS                                               
+ESTRADA                                              
+PUERTO CARRILLO                                      
+LOS ANGELES NORTE                                    
+ALTOS DEL SOCORRO                                    
+PUNTARENAS                                            
+CERRO PLANO                                           
+PITAHAYA                                              
+SARDINAL DE ACAPULCO                                  
+CHOMES                                                
+SARMIENTO                                             
+LAGARTO SUR                                           
+LEPANTO                                               
+MONTAÑA GRANDE                                        
+JICARAL                                               
+PAQUERA                                               
+TAMBOR                                                
+MANZANILLO DEL GOLFO                                  
+NANCITE                                 
+BARRANCA                                              
+SAN MIGUEL DE BARRANCA                                
+COROZAL                                               
+VAINILLA                                              
+JUAN DE LEON                                          
+CUAJINIQUIL                                           
+GUACIMAL                                              
+COBANO                                                
+SANTA ELENA                                           
+DOMINICAS                                             
+MONTEZUMA                                             
+PILAS DE CANJEL                                       
+SAN LUIS DE MONTEVERDE                                
+SAN RAMON DE RIO BLANCO                               
+COSTA DE PAJAROS                 
+SANTA ROSA                                            
+CABO BLANCO DEL GOLFO                                 
+CARMEN LIRA                                           
+POCHOTE                                               
+RIO NEGRO                                             
+BELLO HORIZONTE                                       
+LA ESPERANZA                                          
+RIO FRIO                                              
+ABANGARITOS                                           
+FLORIDA                               
+LA TIGRA                                
+KENNEDY                                   
+RIO GRANDE                                            
+SAN RAFAEL                                            
+GUARIA                                                
+CHACARITA                                             
+SAN MIGUEL DE RIO BLANCO                              
+EL BALSO                                              
+SAN BLAS                                              
+PAVON                                                 
+SAN RAFAEL DE ACAPULCO                                
+OJO DE AGUA                                           
+BAJO CALIENTE                          
+ISLA CABALLO                                          
+MALINCHE                                              
+JUDAS                                                 
+GIGANTE                                               
+PUEBLO NUEVO                                          
+CABUYA                                                
+MAL PAIS                                              
+COYOLITO                                      
+ARANJUEZ                                              
+ORIENTE                         
+CORAZON DE JESUS                 
+CHAPERNAL                                             
+LA FRESCA                                             
+BAJO NEGRO                                            
+MORALES                                               
+EL ROBLE                                              
+FRAY CASIANO DE MADRID                                
+BARRIO EL CARMEN                                      
+EL COCAL                                              
+BOCANA                                                
+SAN PEDRO                                             
+CEBADILLA DE ARANJUEZ                     
+PANICA                                                
+C. P. 26 DE JULIO                    
+PUERTO PALITO                                         
+FLORIDA                    
+CONCEPCION                                            
+JUANITO MORA                                          
+EL PROGRESO                                           
+CHAGUITE                                              
+VALLE AZUL                                            
+H.A. MIGUEL MORENO                                    
+PLAYA BLANCA                                          
+ISLA DEL COCO                                         
+H.A. MARIA INMACULADA                                 
+YIRETH                                                
+SANTA TERESA                                 
+C.P. 26 DE JULIO                       
+ESPARZA                                               
+ARTIEDA                                 
+SAN JUAN GRANDE                                       
+MATA DE LIMON                                         
+JUANILAMA                                             
+SALINAS                                               
+MACACONA                                              
+PEÑA BLANCA                                           
+MESETAS ABAJO                                         
+SAN RAFAEL                                            
+GUADALUPE O MARATON                                   
+EL BARON                                              
+MOJON                                                 
+SAN JERONIMO                                          
+CERRILLOS                                             
+MARAÑONAL                              
+PARAISO O BRUSELAS                                    
+H.A. CARLOS VENEGAS                                   
+TIVIVES                                               
+BUENOS AIRES                                     
+SAN LUIS                               
+SALITRE                                          
+VOLCAN                                           
+POTRERO GRANDE                                   
+BORUCA                                           
+LAS PILAS                                        
+COLINAS                       
+JABILLO                                          
+CURRE                                            
+LA DANTA O CONCEPCION                            
+SAN RAFAEL DE BRUNKA                             
+UJARRAS                                          
+VUELTAS                                          
+SANTA MARTA                                      
+LA LUCHA                                         
+PARAISO                                 
+BAJO LAS BRISAS                                  
+EL PEJE                                          
+CORDONCILLO                                      
+TERRABA                                          
+SAN RAFAEL DE CABAGRA                            
+PASO REAL                                        
+BOLAS DE KRUGRA                                  
+NARANJOS                                         
+BIJAGUAL                                         
+CAJON                                            
+GUAGARAL                                         
+MAIZ DE BORUCA                                   
+CHANGUENA                           
+PILON                                            
+LAS VEGAS DE RIO CHANGUENA                       
+LA BONGA                                         
+SAN VICENTE UPIAV                            
+PARAISO                                          
+SAN LUIS DE RIO LIMON                            
+OLAN                                             
+CACIQUE                                          
+CAPRI                                            
+PUENTE DE SALITRE                                
+SAN ANTONIO                                      
+VILLA HERMOSA                                    
+EL CEIBO                                         
+LA PUNA                                          
+COLORADO                                         
+EL CARMEN                                        
+CONVENTO                                         
+CAÑAS                                            
+SAN CARLOS                                       
+SHAMBA                                           
+CAÑO BRAVO                                       
+SANTA CRUZ                                       
+PALMITAL                                         
+MIRAMAR                                         
+ZAGALA VIEJA                                    
+RIO SECO                                        
+LA UNION                                        
+PALMITAL                                        
+CEDRAL                                          
+CIRUELAS                                        
+SAN ISIDRO                           
+TAJO ALTO                         
+SANTA ROSA                                      
+LAGUNA                                          
+H.A. FRAY CASIANO DE MADRID                     
+LINDA VISTA                                     
+PUERTO CORTES                                             
+PALMAR NORTE                                              
+SIERPE                                                    
+PIEDRAS BLANCAS                                           
+PALMAR SUR                                                
+OLLA CERO O SANTA EDUVIGIS                                
+SAN FRANCISCO DE RIO TINOCO                               
+GUARIA                                                    
+CORONADO                                                  
+OJOCHAL                                                   
+DOMINICALITO                                              
+MOGOS                                                     
+UVITA                                                     
+SAN BUENAVENTURA                                          
+DRAKE                                       
+SABALO                                                    
+LA NAVIDAD                                                
+OJO DE AGUA                                               
+VENECIA                                                   
+RINCON DEL GOLFO                                          
+CHOCUACO ARRIBA                                           
+FINCA SEIS-ONCE                                           
+BALSAR ARRIBA                                             
+FINCA DOS-CUATRO                                          
+RIYITO DE SIERPE                                          
+MIRAMAR                                                   
+JALACA                                      
+SINAI                                                     
+RANCHO QUEMADO O DELICIAS                                 
+CAÑABLANCAL                                               
+EL PROGRESO                                               
+FINCA GUANACASTE                           
+H.A. PALMAR SUR                                           
+LOS PLANES                                                
+ALTO LAGUNA                                               
+QUEPOS                                                 
+CERRITOS                                               
+NARANJITO                                              
+PASITO                                                 
+DAMAS                                                  
+VILLANUEVA                                             
+MATAPALO                                               
+SAN RAFAEL                                   
+RONCADOR                                               
+HATILLO VIEJO                           
+PUNTO DE MIRA                                          
+MARITIMA                                               
+DOS BOCAS                                              
+TIERRAS MORENAS                                        
+PAQUITA                                                
+LONDRES                                                
+SILENCIO                                               
+LA INMACULADA                                          
+SANTO DOMINGO                                          
+MANUEL ANTONIO                                         
+BOCA VIEJA                                             
+COCAL                                                  
+SABALO                                                 
+PORTALON                                               
+H.A. QUEPOS                                            
+GOLFITO                                               
+PUERTO JIMENEZ                                        
+LA PALMA O INDEPENDENCIA                              
+CAÑAZA DE JIMENEZ                                     
+VILLA BRICEÑO                                  
+CONTE DE PAVON                                        
+FLORIDA                                       
+ZANCUDO                                
+BOCA GALLARDO DE SANDALO                              
+RIO CLARO                                             
+LA MONA                                               
+LA FORTUNA DE COTO                                    
+LA VIRGEN                                             
+PUNTA BANCO                                
+LLANO BONITO                                          
+UNION DE COTO NORTE                                   
+VALLE DE LOS CEDROS O SAN MIGUEL                      
+KILOMETRO 16                                          
+BAHIA DE PAVON                       
+LA PEÑA DE BURICA                                     
+CARACOL NORTE                                 
+GUAYMI DE BURICA                                      
+ALTO CONTE                              
+VIQUILLAS                                             
+PROGRESO DE CONTEBURICA                               
+CACAO                                                 
+RESIDENCIAL UREÑA                                     
+ESCUADRA                                              
+LAGARTO                                    
+KILOMETRO 20                                          
+GEMELAS                       
+ESPERANZA                                             
+SAN RAMON                                             
+FINCA 54                                              
+H.A. GOLFITO                                          
+CARBONERA                                             
+SAN VITO                                            
+BAJO REYES                                          
+LA ADMINISTRACION                 
+SABALITO                                            
+SAN MIGUEL DE LA FRONTERA                           
+LAS MELLIZAS                                        
+AGUABUENA                                           
+LIMONCITO DEL OESTE                                 
+LA UNION DE LIMONCITO                               
+SAN RAFAEL DE LIMONCITO                             
+SABANILLA                                           
+CAÑAS GORDAS                                        
+COPAL                                               
+SAN FRANCISCO DE AGUA BUENA                         
+EL VALLE                                            
+SAN GERARDO                                         
+MONTERREY                                           
+FILA MENDEZ                                         
+SANTA ELENA                                         
+FILA GUINEA                                         
+FILA PINAR                                          
+FLOR DEL ROBLE                                      
+LOURDES                                             
+LA LUCHA                                            
+LOS ANGELES DE SABALITO                             
+CONCEPCION                                          
+SANTA CECILIA DE AGUA BUENA                         
+CAMPO TRES                                          
+SANTA RITA                                          
+SANTA CLARA                                         
+BRISAS                                              
+PIEDRA PINTADA                                      
+SAN ANTONIO                                         
+LINDA VISTA                            
+ROBLE                                               
+AGUA CALIENTE                                       
+AGUAS CLARAS                                        
+SANTA TERESA                                        
+CAMAQUIRI                                           
+PALMIRA                                             
+LA CASONA                                  
+MARAVILLA                                           
+BARRIO CANADA                                       
+H.A. COTO BRUS                                      
+SAN RAMON                                           
+LA ISLA                                             
+PUEBLO NUEVO                                          
+ESTERILLOS OESTE                                      
+CHIRES ARRIBA                                         
+SARDINAL SUR                                          
+LOMAS DE PARRITA                                      
+LOS ANGELES                                           
+EL TIGRE                                              
+CHIRRACA                                              
+SAN ISIDRO DE PLAYON                                  
+SURUBRES                                              
+PALO SECO                                             
+VUELTA DE POCARES                                     
+POCARES                                               
+PORVENIR O LAS VEGAS                                  
+SAN RAFAEL NORTE                           
+LAS PARCELAS O DAMITAS                      
+ISLA DAMAS                                            
+PIRRIS                                                
+BAMBU                                                 
+VALLE VASCONIA                                
+BEJUCO                                                
+LA JULIETA                                            
+PLAYON SUR                                            
+BANDERA                                               
+CARMEN                                    
+PLAYA ISLA PALO SECO                                  
+NEILY                                              
+CAMPO DOS Y MEDIO                       
+BAJO LOS INDIOS                                    
+COTO CUARENTA Y DOS                                
+COTO CUARENTA Y SIETE                              
+ABROJO NORTE                        
+CAMPIÑA                                            
+LA CUESTA                                          
+LAUREL                                             
+CANOAS                                             
+BARRIO NUEVO DE VERACRUZ               
+COLORADO                                           
+MARIPOSA                                           
+LOS PLANES                                         
+CARMEN                           
+BELLA LUZ                                          
+COLONIA LIBERTAD                          
+LA NUBIA                           
+CARACOL DE LA VACA                                 
+VEREH                                              
+RIO BONITO DE NEILY                                
+SAN MARTIN                                         
+FORTUNA                                            
+VEGAS DEL RIO LA VACA NIBIRIBOTDA                  
+ABROJO-MONTEZUMA                                   
+NARANJO                                            
+RIO NUEVO                                          
+H.A. NEILY                                         
+DARIZARA                                           
+BARRIO SAN JORGE                                   
+JACO                                                 
+TARCOLES                                             
+QUEBRADA GANADO                                      
+HERRADURA                                            
+PUEBLO NUEVO                            
+LAGUNILLAS                             
+POCHOTAL                                             
+QUEBRADA AMARILLA                                    
+LIMON                                                      
+LIVERPOOL                                                  
+LA BOMBA                                                   
+LA COLONIA                                                 
+PENSHURT                                                   
+CRISTOBAL COLON                                            
+MOIN                                                       
+PUEBLO NUEVO O JAMAICA                                     
+VESTA                                                      
+SAN ANDRES                                                 
+RIO BLANCO                                                 
+WESTFALIA                                                  
+CORALES 2                                                  
+LIMONCITO O BARRIO QUINTO                                  
+SANTA ROSA                                                 
+BANANITO NORTE                                             
+BRISAS DE VERAGUA                                          
+SANTA EDUVIGIS                                             
+BUFALO                                                     
+BOCUARE                                                    
+VALLE DE LAS ROSAS                                         
+BEVERLEY                                                   
+AGUAS ZARCAS                                               
+PROGRESO                                                   
+SAN RAFAEL                                                 
+VILLA DEL MAR                                              
+LA COLINA                                                  
+SAN JUAN                                                   
+PANDORA ESTE                                
+VALLE AURORA                                               
+GUARIA                                                     
+SANTA RITA                                                 
+ALTO CWEN                                                  
+XIQIARI                                                    
+SINOLI                                                     
+C.P. LIMON                                      
+H.A. VICTOR CASCO TORRES                                   
+URBANIZACION PACUARE                                       
+CONCEPCION                                                 
+CANGREJOS                                                  
+ALMIRANTE                                                  
+GAVILAN                                    
+JAKKUE                          
+DONDONIA                                                   
+RIO BANANO                                                 
+LOMA LINDA                                                 
+GUAPILES                                                    
+BARRA DEL COLORADO                                          
+JIMENEZ                                                     
+LAS PALMITAS                                                
+LA CURIA                                      
+CARIARI                                   
+ROXANA                                                      
+LA MARAVILLA                                                
+ANITA GRANDE                                                
+RITA                                                        
+CRUCE DE ROXANA                          
+BANAMOLA                                                    
+SAN PEDRO                                                   
+LAS MERCEDES                                      
+CAMPO CINCO                                     
+SAN RAFAEL                                                  
+FLORES                                               
+TICABAN                                                     
+DIAMANTES                                                   
+SAN ANTONIO                                       
+BOCA TORTUGUERO                                             
+LA TERESA                                                   
+PRIMAVERA                                                   
+LOS ANGELES                                                 
+CAMPO DOS                                                   
+CUATRO ESQUINAS                                             
+EL CEIBO                                                    
+SANTA ROSA                                                  
+LA MARINA                                                   
+BELLA VISTA                                                 
+PATIO SAN CRISTOBAL                                         
+CEDRAL                                                      
+SECTOR 8                                      
+SAN GERARDO                                                 
+C.P. CARLOS LUIS FALLAS                       
+CARLOTA                                                     
+H.A. GUAPILES                                               
+TORO AMARILLO                                               
+SUERRE                                                      
+LA FORTUNA                                                  
+LLANO BONITO                                                
+ASTUA PIRIE                                                 
+PROGRESO                                                    
+SAN FRANCISCO DE CAÑO SECO                                  
+LINDA VISTA                                                 
+BUENOS AIRES                                                
+SAN MARTIN                                                  
+PORVENIR                                                    
+C.P. CARLOS LUIS FALLAS                        
+CASCADAS                                                    
+SAN BOSCO                                                   
+H.A. CARIARI                                                
+C.P. CARLOS LUIS F.                         
+C.P. 20 DE DICIEMBRE                                        
+SIQUIRRES                                                
+SANTO DOMINGO                            
+SAN ALBERTO NUEVO                                        
+PACUARITO                                                
+ALEGRIA                                                  
+FLORIDA                                                  
+MILANO O NEGUEV                                          
+GERMANIA                                                 
+SAN ALEJO SANTA MARTA                                    
+EL CAIRO                                                 
+EL COCO                                                  
+CIMARRONES                                               
+SAN ISIDRO                              
+FINCA IMPERIO 2                                          
+PERLA                                                    
+INDIANA TRES                                             
+MADRE DE DIOS                                            
+SAN ANTONIO                                              
+HEREDIANA                                                
+BOCA DE PARISMINA                                        
+SAN JOSE O BAJOS DE PASCUA                     
+SAN ISIDRO O ALTOS DE PASCUA                             
+SEIS AMIGOS                                              
+SAN CARLOS                                               
+MARYLAND                                                 
+FREEMAN                                                  
+EL PEJE                                                  
+GUAYACAN                                                 
+LUCHA                                                    
+BANACOL                                    
+CULTIVEZ                                                 
+BELLAVISTA                                               
+ALTO LAS BRISAS DE PACUARITO                             
+COCAL                                                    
+SAN MARTIN                                               
+PORTON IBERIA                                            
+BRATSI                               
+AMUBRI                                                   
+COROMA                                      
+SIXAOLA                                                  
+CAHUITA                                                  
+PUERTO VIEJO                                             
+BRIBRI                                           
+SHIROLES                                      
+PARAISO                                                  
+GANDOCA                                                  
+MANZANILLO                                               
+HOME CREEK                                               
+KATSI                                                    
+DAYTONIA                                                 
+SEPEQUE                                                  
+MARGARITA                                                
+DINDIRI O CARBON DOS                                     
+BORDON                                                   
+SIBUJU                                                   
+BAJO TELIRE                                
+H.A. SANTA LUISA                                         
+YORKIN                                                   
+ALTO TELIRE                         
+MATINA                                                      
+ZENT                                                        
+ESTRADA                                                     
+BATAN                                                       
+LUZON                                                       
+VEINTIOCHO MILLAS O WALDEK                                  
+CORINA                                                      
+BRISTOL                                                     
+CUBA CREEK                                     
+SAHARA                                                      
+SANTA MARTA                                                 
+SANTA MARIA                                                 
+SAN MIGUEL                                                  
+LINEA B                                                     
+CUATRO MILLAS                                               
+PALMERA                                       
+ESPERANZA                                                   
+ESPAVEL                                             
+BARBILLA NORTE                                              
+GUACIMO                                                    
+HOGAR                                                      
+BOSQUE                                                     
+PARISMINA                                                  
+IROQUOIS                                                   
+POCORA PARTE NORTE                                         
+RIO JIMENEZ                               
+SANTA ROSA                                                 
+VILLAFRANCA                                                
+OJO DE AGUA O SAN GDO                      
+LOS ANGELES                                                
+SAN LUIS                                                   
+PUEBLO NUEVO O ZANCUDO                                     
+LIMBO                                                      
+POCORA PARTE SUR                                           
+ARGENTINA                                                  
+LAS COLINAS                                                
+H.A DAVID GARRO                                            
+BERLIN                                                
+BUENOS AIRES                                         
+VIENA                                                  
+BRUSELAS                                               
+BELMOPAN                                                
+BRASILIA                                                
+OTTAWA                                                  
+TORONTO                                                 
+SANTIAGO                                                 
+BEIJIN                                                   
+SHANGHAI                                                 
+BOGOTA                                                
+SEUL                                                     
+LA HABANA                                                 
+QUITO                                                  
+ATLANTA                                         
+HOUSTON                                         
+LOS ANGELES                                     
+MIAMI                                           
+NUEVA YORK                                      
+WASHINGTON                                      
+CHICAGO                                         
+SAN SALVADOR                                       
+MADRID                                                  
+PARIS                                                  
+GUATEMALA                                            
+TEGUCIGALPA                                           
+TEL AVIV                                                
+ROMA                                                    
+TOKIO                                                    
+MEXICO                                                  
+CHINANDEGA                                           
+MANAGUA                                              
+LA HAYA                                           
+CIUDAD DE PANAMA                                        
+DAVID                                                   
+LIMA                                                      
+LONDRES                                            
+SANTO DOMINGO                             
+MOSCU                                                    
+SINGAPUR                                              
+BERNA                                                    
+PUERTO ESPAÑA                                
+MONTEVIDEO                                             
+CARACAS                                              
+NUEVA DELHI                                              
+DOHA                                                     
+LA PAZ                                                 
+ASUNCION                                              
+SIDNEY                                               
+KINGSTON JAMAICA                                       
+ANKARA                                                 
+ABU DHABI                               
+YAKARTA                                              
+BAKU                                                
+NAIROBI                                                  
